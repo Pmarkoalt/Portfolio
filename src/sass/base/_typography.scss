@@ -1,0 +1,104 @@
+html *{
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+
+    font-size: calc(4vw + 4vh + 2vmin);
+    font-weight: $header-weight;
+}
+
+h2 {
+    text-align: center;
+    font-size: $header-size;
+    font-weight: $header-weight;
+}
+
+h3,
+p {
+    font-size: $body-size;
+    font-weight: $body-weight;
+}
+
+.about p {
+    font-size: $body-size;
+    font-weight: 500;
+    font-size: $body-size;
+    line-height: 1.6;
+}
+
+::-moz-selection {
+    background: #4c00ec;
+    color: #fff;
+}
+
+::selection {
+    background: #4c00ec;
+    color: #fff;
+}
+
+
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 960px) {
+
+    h1,
+    h2 {
+        // text-align: center;
+        font-size: $header-size;
+        font-weight: $header-weight;
+    }
+
+    h3,
+    p {
+        font-size: $body-size;
+        font-weight: $body-weight;
+    }
+
+    .about p {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    h1,
+    h2 {
+        // text-align: center;
+        font-size: 35px;
+        font-weight: $header-weight;
+    }
+
+    h3,
+    p {
+        font-size: 25px;
+        font-weight: $body-weight;
+    }
+
+    .about p {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1,
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    h3,
+    p {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+}

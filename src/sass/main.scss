@@ -1,0 +1,27 @@
+@import "vendor/reset";
+
+@import "base/variables";
+@import "base/typography";
+
+@import "regions/animation";
+@import "regions/splash";
+
+#container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center; /* align items in Main Axis */
+  align-items: center; /* align items in Cross Axis */
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
