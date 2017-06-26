@@ -46,6 +46,8 @@
 
 	__webpack_require__(1);
 	__webpack_require__(5);
+	__webpack_require__(12);
+	__webpack_require__(13);
 
 /***/ }),
 /* 1 */
@@ -82,7 +84,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\n.img-wrap, .landing__mask {\n  overflow: hidden; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:after, blockquote:before, q:after, q:before {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml * {\n  font-family: 'Anton', sans-serif; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 500; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 500; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 500;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n::-moz-selection {\n  background: #4c00ec;\n  color: #fff; }\n\n::selection {\n  background: #4c00ec;\n  color: #fff; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 960px) {\n  h1,\n  h2 {\n    font-size: calc(3vw + 3vh + 1.5vmin);\n    font-weight: 500; }\n  h3,\n  p {\n    font-size: calc(1.7vw + 1.7vh + 1vmin);\n    font-weight: 300; }\n  .about p {\n    font-size: 30px; } }\n\n@media (max-width: 760px) {\n  h1,\n  h2 {\n    font-size: 35px;\n    font-weight: 500; }\n  h3,\n  p {\n    font-size: 25px;\n    font-weight: 300; }\n  .about p {\n    font-size: 22px;\n    font-weight: 300; } }\n\n@media (max-width: 480px) {\n  h1,\n  h2 {\n    text-align: center;\n    font-size: 30px; }\n  h3,\n  p {\n    font-size: 22px;\n    font-weight: 300; } }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  background-color: #04bf94;\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  background-color: rgba(255, 255, 255, 0.5); }\n  .contact__information {\n    margin: 10px; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.5);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh; }\n    .languages__div__svg {\n      width: 200px;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  text-align: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .languages__div__svg {\n    width: 180px; } }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between; }\n  .port__left {\n    display: flex;\n    flex-direction: column; }\n  .port__right {\n    display: flex;\n    flex-direction: column; }\n\n.portfolio {\n  background-color: #04bf94;\n  text-align: center; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port-item {\n  background-color: white;\n  width: 40vw;\n  height: 200px;\n  margin: 50px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: center;\n    margin-top: 3vh;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 4s; }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .landing__title {\n    width: 275px; }\n  .landing__menu li,\n  .landing__menu li:first-child {\n    font-size: 22px; } }\n\n@media (max-width: 480px) {\n  .landing {\n    position: relative;\n    height: 90vh;\n    background-color: #fff; }\n    .landing__menu {\n      display: none; }\n    .landing__title {\n      width: 210px; }\n    .landing__mask.top-mask:after {\n      height: 2px; }\n  html {\n    background-image: url(\"/../../images/mobile_background.png\") no-repeat center center fixed;\n    -webkit-background-size: cover;\n    -moz-background-size: cover;\n    -o-background-size: cover;\n    background-size: cover; } }\n\nmain {\n  display: flex;\n  flex-direction: column; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n.table {\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\n.img-wrap, .landing__mask {\n  overflow: hidden; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:after, blockquote:before, q:after, q:before {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml * {\n  font-family: 'Anton', sans-serif; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 500; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 500; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 500;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n::-moz-selection {\n  background: #4c00ec;\n  color: #fff; }\n\n::selection {\n  background: #4c00ec;\n  color: #fff; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 960px) {\n  h1,\n  h2 {\n    font-size: calc(3vw + 3vh + 1.5vmin);\n    font-weight: 500; }\n  h3,\n  p {\n    font-size: calc(1.7vw + 1.7vh + 1vmin);\n    font-weight: 300; }\n  .about p {\n    font-size: 30px; } }\n\n@media (max-width: 760px) {\n  h1,\n  h2 {\n    font-size: 35px;\n    font-weight: 500; }\n  h3,\n  p {\n    font-size: 25px;\n    font-weight: 300; }\n  .about p {\n    font-size: 22px;\n    font-weight: 300; } }\n\n@media (max-width: 480px) {\n  h1,\n  h2 {\n    text-align: center;\n    font-size: 30px; }\n  h3,\n  p {\n    font-size: 22px;\n    font-weight: 300; } }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  background-color: #04bf94;\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  background-color: rgba(255, 255, 255, 0.5); }\n  .contact__information {\n    margin: 10px; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.5);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh; }\n    .languages__div__svg {\n      width: 200px;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  text-align: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .languages__div__svg {\n    width: 180px; } }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between; }\n  .port__left {\n    display: flex;\n    flex-direction: column; }\n  .port__right {\n    display: flex;\n    flex-direction: column; }\n\n.portfolio {\n  background-color: #04bf94;\n  text-align: center; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port-item {\n  background-color: white;\n  width: 40vw;\n  height: 200px;\n  margin: 50px;\n  box-shadow: -1px 2px 3px black; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: center;\n    margin-top: 3vh;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 4s; }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .landing__title {\n    width: 275px; }\n  .landing__menu li,\n  .landing__menu li:first-child {\n    font-size: 22px; } }\n\n@media (max-width: 480px) {\n  .landing {\n    position: relative;\n    height: 90vh;\n    background-color: #fff; }\n    .landing__menu {\n      display: none; }\n    .landing__title {\n      width: 210px; }\n    .landing__mask.top-mask:after {\n      height: 2px; }\n  html {\n    background-image: url(\"/../../images/mobile_background.png\") no-repeat center center fixed;\n    -webkit-background-size: cover;\n    -moz-background-size: cover;\n    -o-background-size: cover;\n    background-size: cover; } }\n\nmain {\n  display: flex;\n  flex-direction: column; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n.table {\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
 	
 	// exports
 
@@ -6066,6 +6068,146 @@
 			if (callNow) func.apply(context, args);
 		};
 	};
+
+/***/ }),
+/* 11 */,
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	debounce = __webpack_require__(10).debounce;
+	
+	//===============================
+	//      MISC FUNCTIONALITY
+	//===============================
+	
+	document.addEventListener('DOMContentLoaded', function () {
+	
+	    var about = document.getElementById('about');
+	    about.classList.add('visible');
+	
+	    var scrollAnimate = debounce(function () {
+	        var about = document.getElementById('about'),
+	            work = document.getElementById('work'),
+	            contact = document.getElementById('contact');
+	
+	        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+	
+	        var scroll = window.pageYOffset + h / 3,
+	            aboutTop = about.getBoundingClientRect().top,
+	            workTop = work.getBoundingClientRect().top;
+	
+	        // if(scroll > aboutTop)
+	        //     about.classList.add('show-text');
+	        //
+	        // if(scroll < aboutTop)
+	        //     about.classList.remove('show-text');
+	        //
+	        // if(window.pageYOffset > workTop)
+	        //     contact.classList.add('visible');
+	        //
+	        // if(window.pageYOffset < workTop)
+	        //     contact.classList.remove('visible');
+	
+	    }, 5);
+	
+	    window.addEventListener('scroll', scrollAnimate);
+	});
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+	document.addEventListener('DOMContentLoaded', function () {
+	
+	    // Feature Test
+	    if ('querySelector' in document && 'addEventListener' in window && Array.prototype.forEach) {
+	
+	        // Function to animate the scroll
+	        var smoothScroll = function (anchor, duration, easing) {
+	
+	            // Function to control easing
+	            var easingPattern = function (type, time) {
+	                return time < 0.5 ? 4 * time * time * time : (time - 1) * (2 * time - 2) * (2 * time - 2) + 1;
+	            };
+	
+	            // Calculate how far and how fast to scroll
+	            // http://www.quirksmode.org/blog/archives/2008/01/using_the_assig.html
+	            var startLocation = window.pageYOffset;
+	            var endLocation = function (anchor) {
+	                var distance = 0;
+	                if (anchor.offsetParent) {
+	                    do {
+	                        distance += anchor.offsetTop;
+	                        anchor = anchor.offsetParent;
+	                    } while (anchor);
+	                }
+	                return distance + 25;
+	            };
+	            var distance = endLocation(anchor) - startLocation;
+	            var increments = distance / (duration / 16);
+	            var timeLapsed = 0;
+	            var percentage, position, stopAnimation;
+	
+	            // Scroll the page by an increment, and check if it's time to stop
+	            var animateScroll = function () {
+	                timeLapsed += 16;
+	                percentage = timeLapsed / duration;
+	                percentage = percentage > 1 ? 1 : percentage;
+	                position = startLocation + distance * easingPattern(easing, percentage);
+	                window.scrollTo(0, position);
+	                stopAnimation();
+	            };
+	
+	            // Stop the animation
+	            if (increments >= 0) {
+	                // If scrolling down
+	                // Stop animation when you reach the anchor OR the bottom of the page
+	                stopAnimation = function () {
+	                    var travelled = window.pageYOffset;
+	                    if (travelled >= endLocation(anchor) - increments || window.innerHeight + travelled >= document.body.scrollHeight) {
+	                        clearInterval(runAnimation);
+	                    }
+	                };
+	            } else {
+	                // If scrolling up
+	                // Stop animation when you reach the anchor OR the top of the page
+	                stopAnimation = function () {
+	                    var travelled = window.pageYOffset;
+	                    if (travelled <= endLocation(anchor) || travelled <= 0) {
+	                        clearInterval(runAnimation);
+	                    }
+	                };
+	            }
+	
+	            // Loop the animation function
+	            var runAnimation = setInterval(animateScroll, 16);
+	        };
+	
+	        // For each smooth scroll link
+	        var scrollToggle = document.querySelectorAll('.smooth-scroll');
+	        [].forEach.call(scrollToggle, function (toggle) {
+	
+	            // When the smooth scroll link is clicked
+	            toggle.addEventListener('click', function (e) {
+	
+	                // Prevent the default link behavior
+	                e.preventDefault();
+	
+	                // Get anchor link and calculate distance from the top
+	                var dataID = toggle.getAttribute('href');
+	                var dataTarget = document.querySelector(dataID);
+	                var dataSpeed = toggle.getAttribute('data-speed');
+	                var dataEasing = toggle.getAttribute('data-easing');
+	
+	                // If the anchor exists
+	                if (dataTarget) {
+	                    // Scroll to the anchor
+	                    smoothScroll(dataTarget, dataSpeed || 500, dataEasing || 'easeInOutCubic');
+	                }
+	            }, false);
+	        });
+	    }
+	});
 
 /***/ })
 /******/ ]);
