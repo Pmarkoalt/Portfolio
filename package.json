@@ -5,7 +5,6 @@
   "main": "./src/js/entry.js",
   "scripts": {
     "build": "webpack --optimize-minimze -w",
-    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
