@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/js/entry.js",
   "scripts": {
-    "build": "webpack --optimize-minimze -w",
+    "build": "webpack --optimize-minimze -w"
   },
   "author": "",
   "license": "ISC",
