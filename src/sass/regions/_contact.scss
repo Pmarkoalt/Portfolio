@@ -1,0 +1,52 @@
+.contact{
+  background-color: rgba(255, 255, 255,.5);
+
+    &__information{
+      margin: 10px;
+
+      &__svg{
+
+
+      }
+
+      &__svg img{
+        width: 30px;
+        height: 30px;
+        color: black;
+      }
+    }
+
+}
+
+#contact-header{
+  font-size: calc(2vw + 2vh + 1vmin);
+}
+
+
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media (max-width: 960px) {
+
+
+
+}
+
+@media (max-width: 760px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}

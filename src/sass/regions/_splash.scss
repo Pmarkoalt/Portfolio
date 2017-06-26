@@ -1,5 +1,9 @@
 .splash {
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
     &__title {
       text-align: center;
@@ -28,8 +32,7 @@
     }
 
     &__message{
-      position: absolute;
-      bottom: 100px;
+      margin-top: 10vh;
       opacity: 0;
       -webkit-animation: message 5s;
       animation: message 5s;
@@ -41,8 +44,10 @@
 
 
 #doughnuts {
-    position: absolute;
+  position: fixed;
+    min-height: 100%;
     z-index: -50;
+
 }
 
 

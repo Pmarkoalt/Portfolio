@@ -12,7 +12,7 @@ debounce = require('./helpers').debounce;
 document.addEventListener('DOMContentLoaded', function() {
 
     var container;
-    var homeLinks = document.getElementsByClassName("splash__menu__item");
+    var homeLinks = document.getElementById("homeLink");
     var portLinks;
     var camera, scene, renderer;
 
@@ -216,15 +216,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     callAnimation();
-
-    homeLinks.onclick = function(){
-      for( var i = scene.children.length - 1; i >= 0; i--) {
-        scene.remove(group.children[i]);
-        console.log("test");
-       }
-     }
-
-
 
 
 });

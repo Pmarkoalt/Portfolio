@@ -1,0 +1,43 @@
+.about{
+  background-color: #04bf94;
+  text-align: center;
+
+      &__header{
+        margin-top: 20px;
+      }
+
+      &__text{
+        text-align: left;
+        margin: 2vw;
+        padding-bottom: 30px;
+      }
+}
+
+
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media (max-width: 960px) {
+
+
+
+}
+
+@media (max-width: 760px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}

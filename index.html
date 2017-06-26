@@ -16,12 +16,13 @@
 
     <link rel="icon" href="images/favicon.gif" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
 
-    <script src="dist/bundle.js"></script>
 </head>
 <body>
-	<main id="container">
-    <div class="dougnuts-container" id="doughnuts"></div>
+	<div class="dougnuts-container" id="doughnuts"></div>
+	<main>
+	<section class="splash" id="splashDiv">
 
 		<div class="splash__title">
 				<h1>Peter Markoski</h1>
@@ -29,16 +30,223 @@
 		</div>
 
 		<ul class="splash__menu" id="nav-menu">
-			<li class="splash__menu__item" href="#"> About </li>
-			<li class="splash__menu__item" href="#"> Code </li>
-			<li class="splash__menu__item" href="#"> Music </li>
-			<li class="splash__menu__item" href=#> Contact </li>
+			<li class="splash__menu__item"><a id="homeLink" href="index.html#about"> About </a> </li>
+			<li class="splash__menu__item"><a id="homeLink" href="#"> Code </a></li>
+			<li class="splash__menu__item"><a id="homeLink" href="#"> Music </a></li>
+			<li class="splash__menu__item"><a id="homeLink" href="#"> Contact </a></li>
 		</ul>
 
 		<div class="splash__message">
 			<p> Click On The Doughnuts </p>
 		</div>
 
-	</main>
+	</section>
+
+	<section class="about table">
+		<h1 class="about__header" data-aos="fade-up"> ABOUT </h1>
+		<p class="about__text" data-aos="fade-up" > My name is Peter Markoski and I am a Full Stack Developer located in Washington DC. I like building websites that incorporate new technologies while maintaining high usability. I program primarily with HTML, CSS, and Javascript. I also have experience with Wordpress, Octave, and various DSP languages. I am a massive audiophile who likes working with sounds whether it be mixing records, sound design, or producing songs. Needless to say, I am always within arms reach of a computer at all times. </p>
+
+	</section>
+
+	<section class="languages">
+		<div id="lang-header">
+			<h1 data-aos="fade-up"> Skills </h1>
+		</div>
+		<div id="icons">
+				<div class="languages__div" id="amazon" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/amazonwebservices-original.svg">
+					<p> AWS </p>
+				</div>
+				<div class="languages__div" id="angular" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/angularjs-plain.svg">
+					<p> Angular </p>
+				</div>
+				<div class="languages__div" id="apple" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/apple-original.svg">
+					<p> OSX </p>
+				</div>
+				<div class="languages__div" id="atom" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/atom-original.svg">
+					<p> Atom </p>
+				</div>
+				<div class="languages__div" id="babel" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/babel-plain.svg">
+					<p> Babel </p>
+				</div>
+				<div class="languages__div" id="css" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/css3-plain.svg">
+					<p> CSS </p>
+				</div>
+				<div class="languages__div" id="D3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/d3js-plain.svg">
+					<p> D3.js </p>
+				</div>
+				<div class="languages__div" id="devicon" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/devicon-plain.svg">
+					<p> Devicon </p>
+				</div>
+				<div class="languages__div" id="express" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/express-original.svg">
+					<p> Express </p>
+				</div>
+				<div class="languages__div" id="gimp" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/gimp-plain.svg">
+					<p> Gimp </p>
+				</div>
+				<div class="languages__div" id="git" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/git-plain.svg">
+					<p> Git </p>
+				</div>
+				<div class="languages__div" id="greensock" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/greensock.svg">
+					<p> GreenSock </p>
+				</div>
+				<div class="languages__div" id="grunt" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/grunt-plain.svg">
+					<p> Grunt </p>
+				</div>
+				<div class="languages__div" id="gulp" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/gulp-plain.svg">
+					<p> Gulp </p>
+				</div>
+				<div class="languages__div" id="handlebars" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/handlebars-original.svg">
+					<p> Handlebars </p>
+				</div>
+				<div class="languages__div" id="heroku" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/heroku-plain.svg">
+					<p> Heroku </p>
+				</div>
+				<div class="languages__div" id="html5"data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/html5-plain.svg">
+					<p> HTML </p>
+				</div>
+				<div class="languages__div" id="illustrator" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/illustrator-plain.svg">
+					<p> Illustrator </p>
+				</div>
+				<div class="languages__div" id="javascript" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/javascript-plain.svg">
+					<p> Javascript </p>
+				</div>
+				<div class="languages__div" id="jquery" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/jquery-plain.svg">
+					<p> Jquery </p>
+				</div>
+				<div class="languages__div" id="mocha" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/mocha-plain.svg">
+					<p> Mocha </p>
+				</div>
+				<div class="languages__div" id="mongo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/mongodb-plain.svg">
+					<p> MongoDB </p>
+				</div>
+				<div class="languages__div" id="mysql" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/mysql-plain.svg">
+					<p> MySQL </p>
+				</div>
+				<div class="languages__div" id="node" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/nodejs-plain.svg">
+					<p> NodeJS </p>
+				</div>
+				<div class="languages__div" id="nw" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/nodewebkit-plain.svg">
+					<p> NW.js </p>
+				</div>
+				<div class="languages__div" id="npm" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/npm-original-wordmark.svg">
+					<p> NPM </p>
+				</div>
+				<div class="languages__div" id="photoshop" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/photoshop-plain.svg">
+					<p> Photoshop </p>
+				</div>
+				<div class="languages__div" id="sass" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/sass-original.svg">
+					<p> Sass </p>
+				</div>
+				<div class="languages__div" id="slack" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/slack-plain.svg">
+					<p> Slack </p>
+				</div>
+				<div class="languages__div" id="threejs" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/threejs-logo.svg">
+					<p> Three.js </p>
+				</div>
+				<div class="languages__div" id="tween" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/tween.png">
+					<p> Tween </p>
+				</div>
+				<div class="languages__div" id="typescript" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/typescript-plain.svg">
+					<p> TypeScript </p>
+				</div>
+				<div class="languages__div" id="ubuntu" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/ubuntu-plain.svg">
+					<p> Ubuntu </p>
+				</div>
+				<div class="languages__div" id="webpack" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/webpack-plain.svg">
+					<p> Webpack </p>
+				</div>
+				<div class="languages__div" id="windows" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/windows8-original.svg">
+					<p> Windows </p>
+				</div>
+				<div class="languages__div" id="wordpress" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/wordpress-plain.svg">
+					<p> Wordpress </p>
+				</div>
+		</div>
+	</section>
+
+<section class="portfolio table">
+	<h1> PORTFOLIO </h1>
+	<div class="port">
+		<div class="port__left">
+			<div class="port-item" id="whatToWatch" data-aos="fade-right">
+				<p> What To Watch </p>
+			</div>
+
+			<div class="port-item" id="projectThree" data-aos="fade-right">
+				<p> Project Three </p>
+			</div>
+
+			<div class="port-item" id="hangman" data-aos="fade-right">
+				<p> Hangman </p>
+			</div>
+		</div>
+		<div class="port__right">
+			<div class="port-item" id="public" data-aos="fade-left">
+				<p> Public Website </p>
+			</div>
+
+			<div class="port-item" id="yoBrew" data-aos="fade-left">
+				<p> Yo Brew! </p>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<section class="contact">
+			<div class="contact__information">
+				<h1 id="contact-header"> CONTACT </h1>
+				<h3> Pmarko.alt@gmail.com </h3>
+				<div class="contact__information__svg">
+					<a href="https://github.com/Pmarkoalt" target="_blank"> <img src="images/devicons/github-original.svg"> </a>
+					<a href="https://teamtreehouse.com/petermarkoski" target="_blank"> <img src="images/devicons/treehouse-logo.png"> </a>
+					<a href="https://stackoverflow.com/users/7340994/pmarko-alt" target="_blank"> <img src="images/devicons/stack.svg"> </a>
+				</div>
+			</div>
+
+			<div class="contact__form">
+
+			</div>
+
+	</section>
+</main>
+<script src="node_modules/aos/dist/aos.js"></script>
+<script> AOS.init(); </script>
+<script src="dist/bundle.js"></script>
 </body>
 </html>
