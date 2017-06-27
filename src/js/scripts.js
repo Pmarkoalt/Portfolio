@@ -1,40 +1,54 @@
 debounce = require('./helpers').debounce;
 
-//===============================
-//      MISC FUNCTIONALITY
-//===============================
+var $ = require("jquery");
 
-document.addEventListener('DOMContentLoaded', function() {
-
-    var about = document.getElementById('about');
-    about.classList.add('visible');
-
+$(document).ready(function () {
+  var splashHeight = $('#splash').height();
+  var portHeight = $(document).height() - $("#portfolio").height() - $("#contactMe").height() - 50;
     var scrollAnimate = debounce(function() {
-        var about   = document.getElementById('about'),
-            work    = document.getElementById('work'),
-            contact = document.getElementById('contact');
+      splashHeight = $('#splash').height();
 
-        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+      if ($(window).scrollTop() > splashHeight - $("#sticky-nav").height()) {
+          $('#sticky-nav').addClass('sticky-navigation-fixed');
+          $('#sticky-nav').removeClass('sticky-navigation');
+      } else {
+          $('#sticky-nav').removeClass('sticky-navigation-fixed');
+          $('#sticky-nav').addClass('sticky-navigation');
+      };
 
-        var scroll   = window.pageYOffset + (h / 3),
-            aboutTop = about.getBoundingClientRect().top,
-            workTop  = work.getBoundingClientRect().top;
-
-        // if(scroll > aboutTop)
-        //     about.classList.add('show-text');
-        //
-        // if(scroll < aboutTop)
-        //     about.classList.remove('show-text');
-        //
-        // if(window.pageYOffset > workTop)
-        //     contact.classList.add('visible');
-        //
-        // if(window.pageYOffset < workTop)
-        //     contact.classList.remove('visible');
+      if ($(window).scrollTop() > portHeight) {
+          $('#contactMe').addClass('show-contact');
+          $('#contactMe').removeClass('hide-contact');
+      } else {
+          $('#contactMe').removeClass('show-contact');
+          $('#contactMe').addClass('hide-contact');
+      };
 
 
     }, 5);
 
-    window.addEventListener('scroll', scrollAnimate);
+    $(window).scroll(scrollAnimate);
 
-});
+    function goToByScroll(id){
+      // Reove "link" from the ID
+    id = id.replace("Link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("#"+id).offset().top},
+        'slow');
+      }
+
+      $(".splash__menu__item > a").on('click', function(e) {
+             // Prevent a page reload when a link is pressed
+           e.preventDefault();
+             // Call the scroll function
+             goToByScroll($(this).attr("id"));
+       });
+
+       $("#contactMeLink").on('click', function(e) {
+         $('html,body').animate({
+             scrollTop: $(document).height()},
+             'slow');
+
+        });
+      });

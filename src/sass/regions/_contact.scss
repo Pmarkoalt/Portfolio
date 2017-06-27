@@ -1,8 +1,16 @@
 .contact{
-  background-color: rgba(255, 255, 255,.5);
+  position: fixed;
+  height: 400px;
+  width: 100%;
+  background: #7dc6ff;
+  bottom: 0;
+  z-index: -40;
+  visibility: hidden;
 
     &__information{
       margin: 10px;
+      position: absolute;
+      bottom: 0;
 
       &__svg{
 
@@ -16,10 +24,33 @@
       }
     }
 
+    &__photo{
+
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 125px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+
+      }
+
+    }
+
 }
 
 #contact-header{
   font-size: calc(2vw + 2vh + 1vmin);
+}
+
+.show-contact{
+  visibility: visible;
+}
+
+.hide-contact{
+  visibility: hidden;
 }
 
 

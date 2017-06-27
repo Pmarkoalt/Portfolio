@@ -28,13 +28,14 @@
 				<h1>Peter Markoski</h1>
 				<p>Full Stack Developer</p>
 		</div>
-
-		<ul class="splash__menu" id="nav-menu">
-			<li class="splash__menu__item"><a id="homeLink" href="index.html#about"> About </a> </li>
-			<li class="splash__menu__item"><a id="homeLink" href="index.html#languages"> Languages </a></li>
-			<li class="splash__menu__item"><a id="homeLink" href="index.html#portfolio"> Portfolio </a></li>
-			<li class="splash__menu__item"><a id="homeLink" href="index.html#contact"> Contact </a></li>
-		</ul>
+		<div id="sticky-nav" class="sticky-navigation">
+			<ul class="splash__menu">
+				<li class="splash__menu__item" ><a id="aboutLink" href="#"> About </a> </li>
+				<li class="splash__menu__item"><a id="languagesLink" href="#"> Skills </a></li>
+				<li class="splash__menu__item"><a id="portfolioLink" href="#"> Portfolio </a></li>
+				<li class="splash__menu__item"><a id="contactMeLink" href="#"> Contact </a></li>
+			</ul>
+		</div>
 
 		<div class="splash__message">
 			<p> Click On The Doughnuts </p>
@@ -44,7 +45,7 @@
 
 	<section class="about table" id="about">
 		<h1 class="about__header" data-aos="fade-up"> ABOUT </h1>
-		<p class="about__text" data-aos="fade-up" > My name is Peter Markoski and I am a Full Stack Developer located in Washington DC. I like building websites that incorporate new technologies while maintaining high usability. I program primarily with HTML, CSS, and Javascript. I also have experience with Wordpress, Octave, and various DSP languages. I am a massive audiophile who likes working with sounds whether it be mixing records, sound design, or producing songs. Needless to say, I am always within arms reach of a computer at all times. </p>
+		<p class="about__text" data-aos="fade-up" > My name is Peter Markoski and I am a Full Stack Developer located in Washington DC. I like building websites that incorporate new technologies while maintaining high usability. I program primarily with HTML, CSS, and Javascript. I also have experience with Wordpress, Octave, and various DSP languages. I am a massive audiophile who likes working with sounds whether it be mixing records, sound design, or producing songs. Needless to say, I am always within arms reach of a computer. </p>
 
 	</section>
 
@@ -165,6 +166,10 @@
 					<img class="languages__div__svg" src="images/devicons/sass-original.svg">
 					<p> Sass </p>
 				</div>
+				<div class="languages__div" id="sequlize" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+					<img class="languages__div__svg" src="images/devicons/sequelize-plain.svg">
+					<p> Sequelize </p>
+				</div>
 				<div class="languages__div" id="slack" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
 					<img class="languages__div__svg" src="images/devicons/slack-plain.svg">
 					<p> Slack </p>
@@ -228,7 +233,7 @@
 	</div>
 </section>
 
-	<section class="contact" id="contact">
+	<footer class="contact" id="contactMe">
 			<div class="contact__information">
 				<h1 id="contact-header"> CONTACT </h1>
 				<h3> Pmarko.alt@gmail.com </h3>
@@ -236,14 +241,15 @@
 					<a href="https://github.com/Pmarkoalt" target="_blank"> <img src="images/devicons/github-original.svg"> </a>
 					<a href="https://teamtreehouse.com/petermarkoski" target="_blank"> <img src="images/devicons/treehouse-logo.png"> </a>
 					<a href="https://stackoverflow.com/users/7340994/pmarko-alt" target="_blank"> <img src="images/devicons/stack.svg"> </a>
+					<a href="https://www.linkedin.com/in/peter-markoski/" target="_blank"> <img src="images/devicons/linkedin-plain.svg"> </a>
 				</div>
 			</div>
 
-			<div class="contact__form">
-
+			<div class="contact__photo">
+				<img src="images/headshot.jpg">
 			</div>
 
-	</section>
+	</footer>
 </main>
 <script src="node_modules/aos/dist/aos.js"></script>
 <script> AOS.init(); </script>

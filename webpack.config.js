@@ -24,5 +24,16 @@ module.exports = {
             },
         ]
     },
+    plugins: [
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+    })
+  ],
+    resolve: {
+      modules: [
+          path.join(__dirname, "src/js/vendor")
+      ]
+    },
     devtool: "source-map",
 };

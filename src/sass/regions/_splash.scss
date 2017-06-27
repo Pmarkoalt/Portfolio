@@ -1,6 +1,7 @@
 .splash {
   height: 100vh;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -15,8 +16,7 @@
       display: flex;
       width: 100%;
       text-align: center;
-      justify-content: center;
-      margin-top: 3vh;
+      justify-content: space-around;
       -webkit-animation: fade-in 5s;
       animation: fade-in 5s;
 
@@ -24,6 +24,7 @@
         font-size: calc(1vw + 1vh + .5vmin);
         margin-left: 5vw;
         margin-right: 5vw;
+        line-height: 60px;
       }
       &__item:hover {
         color: blue;
@@ -36,11 +37,21 @@
       opacity: 0;
       -webkit-animation: message 5s;
       animation: message 5s;
-      animation-delay: 4s;
+      animation-delay: 2s;
     }
 
 }
 
+#sticky-nav{
+    height: 60px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    background-color: rgba(255,255,255,.7);
+}
 
 
 #doughnuts {
@@ -50,6 +61,15 @@
 
 }
 
+.sticky-navigation{
+    position:absolute;
+    bottom:0;
+}
+
+.sticky-navigation-fixed {
+    position: fixed;
+    top:0;
+}
 
 
 /*
