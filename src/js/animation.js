@@ -1,9 +1,12 @@
-var THREE     = require('./vendor/three'),
-    TWEEN     = require('tween'),
-    projector = require('./vendor/three-projector'),
-    renderer  = require('./vendor/three-canvas-renderer');
+import THREELib from "three-js";
+import tween from '@tweenjs/tween.js'
 
-debounce = require('./helpers').debounce;
+var THREE     = THREELib(),
+    TWEEN     = tween,
+    projector = THREELib(['Projector']),
+    renderer  = THREELib(['CanvasRenderer']);
+
+var debounce = require('./helpers').debounce;
 
 //===============================
 //      LANDING ANIMATION

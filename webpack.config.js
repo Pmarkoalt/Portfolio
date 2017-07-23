@@ -16,7 +16,6 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
-                preset: 'es2015',
             },
             {
                 test: /\.scss$/,
@@ -27,9 +26,13 @@ module.exports = {
     plugins: [
     new webpack.ProvidePlugin({
         $: "jquery",
-        jQuery: "jquery"
+        jQuery: "jquery",
+        "window.jQuery":"jquery"
     })
   ],
+  externals: {
+    'TweenLite': 'TweenLite',
+  },
     resolve: {
       modules: [
           path.join(__dirname, "src/js/vendor")

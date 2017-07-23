@@ -92,34 +92,9 @@
 
 @media (max-width: 760px) {
 
-
-    .landing__title { width: 275px; }
-
-    .landing__menu li,
-    .landing__menu li:first-child { font-size: 22px; }
-
-
 }
 
 @media (max-width: 480px) {
 
-    .landing {
-        position: relative;
-        height: 90vh;
-        background-color: #fff;
-
-        &__menu { display: none; }
-
-        &__title { width: 210px; }
-
-        &__mask.top-mask:after { height: 2px; }
-    }
-    html {
-    background-image: url("/../../images/mobile_background.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
 
 }
