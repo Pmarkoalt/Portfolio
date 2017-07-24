@@ -1,5 +1,6 @@
 import THREELib from "three-js";
 import tween from '@tweenjs/tween.js'
+import {TweenLite, TimelineLite} from "gsap";
 
 var THREE     = THREELib(),
     TWEEN     = tween,
@@ -14,13 +15,18 @@ var debounce = require('./helpers').debounce;
 
 document.addEventListener('DOMContentLoaded', function() {
 
+    // var speaker = document.getElementsByClassName('innerCircle');
+    // TweenLite.to(speaker, .5, {strokeWidth: 0, })
+
+
+
     var container;
-    var homeLinks = document.getElementById("homeLink");
-    var portLinks;
     var camera, scene, renderer;
 
     var raycaster;
     var mouse;
+
+
 
     function init() {
 

@@ -17,6 +17,8 @@ main {
   flex-direction: column;
   z-index: 100;
   overflow: hidden;
+  font-style: normal;
+  font-weight: 400;
 }
 
 html, body
@@ -34,5 +36,6 @@ a {
 }
 
 .table{
+  background-color: #04bf94;
   box-shadow: 0px -.5px 3px black, 0px 2px 3px black ;
 }
