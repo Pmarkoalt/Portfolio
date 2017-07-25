@@ -65,10 +65,11 @@ $(document).ready(function () {
          });
 
        $("#contactMeLink").on('click', function(e) {
-         e.preventDefault();
-         $('html,body').animate({
-             scrollTop: $(document).height()},
-             'slow');
+              // Prevent a page reload when a link is pressed
+              e.preventDefault();
+         // Call the scroll function
+         goToByScroll($(this).attr("id"));
+
 
         });
       });

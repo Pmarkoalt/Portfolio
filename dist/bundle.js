@@ -86,7 +86,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nhtml * {\n  font-family: \"europa\";\n  font-style: bold;\n  font-weight: 400; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 700; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 400; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 400; }\n\na {\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  position: fixed;\n  height: 200px;\n  width: 100%;\n  background: #7dc6ff;\n  bottom: 0;\n  z-index: -40;\n  visibility: hidden; }\n  .contact__information {\n    margin: 10px;\n    position: absolute;\n    bottom: 0; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n  .contact__photo img {\n    width: 200px;\n    height: 200px;\n    border-radius: 125px;\n    position: fixed;\n    right: 0;\n    bottom: 0; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n.show-contact {\n  visibility: visible; }\n\n.hide-contact {\n  visibility: hidden; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.5);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh; }\n    .languages__div__svg {\n      width: 200px;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  text-align: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .languages__div__svg {\n    width: 180px; } }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .port__left {\n    display: flex;\n    flex-direction: column; }\n  .port__right {\n    display: flex;\n    flex-direction: column; }\n  .port__text {\n    position: fixed;\n    color: white;\n    text-align: center;\n    z-index: 1; }\n  .port__video {\n    width: 100%;\n    height: 100%; }\n\n.portfolio {\n  text-align: center;\n  margin-bottom: 200px; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port-item {\n  position: relative;\n  overflow: hidden;\n  display: flex;\n  justify-content: center;\n  width: 300px;\n  height: 200px;\n  margin: 30px;\n  box-shadow: -1px 2px 3px black; }\n\n#hsvid {\n  -webkit-transform: scaleX(1.2);\n  -moz-transform: scaleX(1.2); }\n\n.publicText {\n  color: red;\n  font-family: 'Cinzel', serif; }\n\n#publicText2 {\n  top: 80px; }\n\n.bssvg {\n  width: 180px;\n  margin-top: 10px; }\n\n#bandspace {\n  background-color: #0a9efc; }\n\n.innerCircle {\n  stroke: #F3D55B;\n  stroke-width: 2px;\n  stroke-opacity: 100;\n  fill: white;\n  fill-opacity: 0;\n  transform-origin: 50% 50%;\n  animation-duration: .5s;\n  animation-name: pulse;\n  animation-iteration-count: infinite; }\n\n@keyframes pulse {\n  from {\n    stroke-width: 3px;\n    stroke-opacity: 1;\n    transform: scale(0.3); }\n  to {\n    stroke-width: 0;\n    stroke-opacity: 1;\n    transform: scale(2); } }\n\n#yobrew {\n  height: 200px;\n  width: 400px; }\n\n#wtwText {\n  display: block;\n  margin: 11px 0 17px 0;\n  font-size: 50px;\n  line-height: 80px;\n  color: gold;\n  text-shadow: 0 1px 0 #9e812f, 0 2px 0 #c79a34, 0 3px 0 #c7a730, 0 4px 0 #b99c4b, 0 5px 0 #9c8f30, 0 6px 1px rgba(241, 231, 203, 0.13), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15), -2px 10px 20px black; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  position: relative;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: space-around;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw;\n      line-height: 60px; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 2s; }\n\n#sticky-nav {\n  height: 60px;\n  display: flex;\n  width: 100%;\n  text-align: center;\n  justify-content: center;\n  align-items: center;\n  z-index: 50;\n  background-color: rgba(255, 255, 255, 0.7); }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\nmain {\n  display: flex;\n  flex-direction: column;\n  z-index: 100;\n  overflow: hidden;\n  font-style: normal;\n  font-weight: 400; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.table {\n  background-color: #04bf94;\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nhtml * {\n  font-family: \"europa\";\n  font-style: bold;\n  font-weight: 400; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 700; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 400; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 400; }\n\na {\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  position: fixed;\n  height: 200px;\n  width: 100%;\n  background: #7dc6ff;\n  bottom: 0;\n  z-index: -40;\n  visibility: hidden; }\n  .contact__information {\n    margin: 10px;\n    position: absolute;\n    bottom: 0; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n  .contact__photo img {\n    width: 200px;\n    height: 200px;\n    border-radius: 125px;\n    position: fixed;\n    right: 0;\n    bottom: 0; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n.show-contact {\n  visibility: visible; }\n\n.hide-contact {\n  visibility: hidden; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.5);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh; }\n    .languages__div__svg {\n      width: 200px;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  text-align: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .languages__div__svg {\n    width: 180px; } }\n\n.portfolio {\n  text-align: center;\n  margin-bottom: 200px; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .port__item {\n    position: relative;\n    overflow: hidden;\n    display: flex;\n    justify-content: center;\n    width: 300px;\n    height: 200px;\n    margin: 30px;\n    box-shadow: -1px 2px 3px black; }\n    .port__item__text {\n      position: fixed;\n      color: white;\n      text-align: center;\n      z-index: 1; }\n  .port__modal {\n    display: flex;\n    flex-direction: column; }\n    .port__modal__header {\n      text-align: left;\n      font-size: 50px; }\n    .port__modal__text {\n      margin-bottom: 20px; }\n    .port__modal__svg {\n      width: 40px; }\n    .port__modal__x {\n      position: absolute;\n      top: 5px;\n      right: 5px;\n      width: 30px; }\n\n#hsvid {\n  -webkit-transform: scaleX(1.2);\n  -moz-transform: scaleX(1.2); }\n\n#hsLogo {\n  max-width: 315px;\n  width: 100%; }\n\n.publicText {\n  color: red;\n  font-family: 'Cinzel', serif; }\n\n#publicText2 {\n  top: 80px; }\n\n.bssvg {\n  width: 180px;\n  margin-top: 10px; }\n\n#bandspace {\n  background-color: #0a9efc; }\n\n.innerCircle {\n  stroke: #F3D55B;\n  stroke-width: 2px;\n  stroke-opacity: 100;\n  fill: white;\n  fill-opacity: 0;\n  transform-origin: 50% 50%;\n  animation-duration: .5s;\n  animation-name: pulse;\n  animation-iteration-count: infinite; }\n\n@keyframes pulse {\n  from {\n    stroke-width: 3px;\n    stroke-opacity: 1;\n    transform: scale(0.3); }\n  to {\n    stroke-width: 0;\n    stroke-opacity: 1;\n    transform: scale(2); } }\n\n#yobrew {\n  height: 200px;\n  width: 400px; }\n\n#wtwText {\n  display: block;\n  margin: 11px 0 17px 0;\n  font-size: 50px;\n  line-height: 80px;\n  color: gold;\n  text-shadow: 0 1px 0 #9e812f, 0 2px 0 #c79a34, 0 3px 0 #c7a730, 0 4px 0 #b99c4b, 0 5px 0 #9c8f30, 0 6px 1px rgba(241, 231, 203, 0.13), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15), -2px 10px 20px black; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  position: relative;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: space-around;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw;\n      line-height: 60px; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 2s; }\n\n#sticky-nav {\n  height: 60px;\n  display: flex;\n  width: 100%;\n  text-align: center;\n  justify-content: center;\n  align-items: center;\n  z-index: 50;\n  background-color: rgba(255, 255, 255, 0.7); }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\nmain {\n  display: flex;\n  flex-direction: column;\n  z-index: 100;\n  overflow: hidden;\n  font-style: normal;\n  font-weight: 400; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.table {\n  background-color: #04bf94;\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
 	
 	// exports
 
@@ -62661,9 +62661,10 @@
 	  });
 	
 	  $("#contactMeLink").on('click', function (e) {
+	    // Prevent a page reload when a link is pressed
 	    e.preventDefault();
-	    $('html,body').animate({
-	      scrollTop: $(document).height() }, 'slow');
+	    // Call the scroll function
+	    goToByScroll($(this).attr("id"));
 	  });
 	});
 
@@ -72932,6 +72933,8 @@
 
 	'use strict';
 	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
 	var _react = __webpack_require__(78);
 	
 	var _react2 = _interopRequireDefault(_react);
@@ -72960,21 +72963,47 @@
 	
 	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 	
-	var _Contact = __webpack_require__(270);
+	var _Contact = __webpack_require__(282);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	_reactDom2.default.render(_react2.default.createElement(
-	  'main',
-	  null,
-	  _react2.default.createElement(_Splash2.default, null),
-	  _react2.default.createElement(_About2.default, null),
-	  _react2.default.createElement(_Skills2.default, { skilldata: _skilldata2.default }),
-	  _react2.default.createElement(_Portfolio2.default, null),
-	  _react2.default.createElement(_Contact2.default, null)
-	), document.getElementById('app'));
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Main = function (_Component) {
+	  _inherits(Main, _Component);
+	
+	  function Main(props) {
+	    _classCallCheck(this, Main);
+	
+	    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
+	  }
+	
+	  _createClass(Main, [{
+	    key: 'render',
+	    value: function render() {
+	
+	      return _react2.default.createElement(
+	        'main',
+	        null,
+	        _react2.default.createElement(_Splash2.default, null),
+	        _react2.default.createElement(_About2.default, null),
+	        _react2.default.createElement(_Skills2.default, { skilldata: _skilldata2.default }),
+	        _react2.default.createElement(_Portfolio2.default, null),
+	        _react2.default.createElement(_Contact2.default, null)
+	      );
+	    }
+	  }]);
+	
+	  return Main;
+	}(_react.Component);
+	
+	_reactDom2.default.render(_react2.default.createElement(Main, null), document.getElementById('app'));
 
 /***/ }),
 /* 78 */
@@ -94939,11 +94968,6 @@
 	  "text": "Angular",
 	  "dataaos": "flip-right"
 	}, {
-	  "id": "apple",
-	  "src": "images/devicons/apple-original.svg",
-	  "text": "OSX",
-	  "dataaos": "flip-up"
-	}, {
 	  "id": "atom",
 	  "src": "images/devicons/atom-original.svg",
 	  "text": "Atom",
@@ -95053,6 +95077,11 @@
 	  "src": "images/devicons/npm-original-wordmark.svg",
 	  "text": "NPM",
 	  "dataaos": "flip-left"
+	}, {
+	  "id": "osx",
+	  "src": "images/devicons/apple-original.svg",
+	  "text": "OSX",
+	  "dataaos": "flip-up"
 	}, {
 	  "id": "photoshop",
 	  "src": "images/devicons/photoshop-plain.svg",
@@ -95325,116 +95354,1522 @@
 	  value: true
 	});
 	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
 	var _react = __webpack_require__(78);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactSvgInline = __webpack_require__(265);
+	var _reactModal = __webpack_require__(265);
+	
+	var _reactModal2 = _interopRequireDefault(_reactModal);
+	
+	var _reactSvgInline = __webpack_require__(278);
 	
 	var _reactSvgInline2 = _interopRequireDefault(_reactSvgInline);
 	
-	var _amplifier = __webpack_require__(269);
+	var _amplifier = __webpack_require__(280);
 	
 	var _amplifier2 = _interopRequireDefault(_amplifier);
 	
-	var _HM = __webpack_require__(271);
+	var _HM = __webpack_require__(281);
 	
 	var _HM2 = _interopRequireDefault(_HM);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Portfolio = function Portfolio() {
-	  return _react2.default.createElement(
-	    'section',
-	    { className: 'portfolio table', id: 'portfolio' },
-	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      ' PORTFOLIO '
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'port' },
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'port-item', id: 'headshoppe', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text' },
-	          ' Headshoppe '
-	        ),
-	        _react2.default.createElement(
-	          'video',
-	          { id: 'hsvid', playsInline: true, autoPlay: true, muted: true, loop: true },
-	          _react2.default.createElement('source', { src: './images/headshoppe.mp4', type: 'video/mp4' })
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'port-item', id: 'public', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text publicText' },
-	          ' PUBLIC '
-	        ),
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text publicText', id: 'publicText2' },
-	          ' \u30D1\u30D6\u30EA\u30C3\u30AF '
-	        ),
-	        _react2.default.createElement(
-	          'video',
-	          { id: 'pbvid', playsInline: true, autoPlay: true, muted: true, loop: true },
-	          _react2.default.createElement('source', { src: './images/public.webm', type: 'video/webm' })
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'port-item', id: 'bandspace', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(_reactSvgInline2.default, { className: 'bssvg', svg: _amplifier2.default }),
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text' },
-	          ' Bandspace '
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { style: { backgroundColor: "grey" }, className: 'port-item', id: 'whatToWatch', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text', id: 'wtwText' },
-	          ' What to Watch '
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'port-item', id: 'yoBrew', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text' },
-	          ' Yo Brew! '
-	        ),
-	        _react2.default.createElement('img', { id: 'yobrew', src: 'images/yobrew.jpg' })
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { style: { backgroundColor: "black" }, className: 'port-item', id: 'hangman', 'data-aos': 'fade-up' },
-	        _react2.default.createElement(
-	          'p',
-	          { className: 'port__text' },
-	          ' Hangman '
-	        ),
-	        _react2.default.createElement(_reactSvgInline2.default, { style: { fill: "blue" }, className: 'bssvg', svg: _HM2.default })
-	      )
-	    )
-	  );
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var customStyles = {
+	
+	  overlay: {
+	    position: 'fixed',
+	    top: 0,
+	    left: 0,
+	    right: 0,
+	    bottom: 0,
+	    backgroundColor: 'rgba(255, 255, 255, 0.75)',
+	    zIndex: 100
+	  },
+	  content: {
+	    position: 'absolute',
+	    top: '40px',
+	    left: '40px',
+	    right: '40px',
+	    bottom: '40px',
+	    border: '1px solid #ccc',
+	    background: '#fff',
+	    overflow: 'auto',
+	    WebkitOverflowScrolling: 'touch',
+	    borderRadius: '4px',
+	    outline: 'none',
+	    padding: '20px'
+	
+	  }
 	};
+	
+	var Portfolio = function (_Component) {
+	  _inherits(Portfolio, _Component);
+	
+	  function Portfolio() {
+	    _classCallCheck(this, Portfolio);
+	
+	    var _this = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this));
+	
+	    _this.state = {
+	      hsModal: false,
+	      pbModal: false,
+	      bsModal: false,
+	      wtwModal: false,
+	      ybModal: false,
+	      hmModal: false
+	    };
+	    _this.hsActiveModal = _this.hsActiveModal.bind(_this);
+	    _this.pbActiveModal = _this.pbActiveModal.bind(_this);
+	    _this.bsActiveModal = _this.bsActiveModal.bind(_this);
+	    _this.wtwActiveModal = _this.wtwActiveModal.bind(_this);
+	    _this.ybActiveModal = _this.ybActiveModal.bind(_this);
+	    _this.hmActiveModal = _this.hmActiveModal.bind(_this);
+	    _this.hsTest = _this.hsTest.bind(_this);
+	    return _this;
+	  }
+	
+	  _createClass(Portfolio, [{
+	    key: 'hsActiveModal',
+	    value: function hsActiveModal() {
+	      if (this.state.hsModal === false) {
+	        this.setState({ hsModal: true });
+	      } else {
+	        this.setState({ hsModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'hsTest',
+	    value: function hsTest() {
+	      this.setState({ hsModa: false });
+	    }
+	  }, {
+	    key: 'pbActiveModal',
+	    value: function pbActiveModal() {
+	      if (this.state.pbModal === false) {
+	        this.setState({ pbModal: true });
+	      } else {
+	        this.setState({ pbModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'bsActiveModal',
+	    value: function bsActiveModal() {
+	      if (this.state.bsModal === false) {
+	        this.setState({ bsModal: true });
+	      } else {
+	        this.setState({ bsModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'wtwActiveModal',
+	    value: function wtwActiveModal() {
+	      if (this.state.wtwModal === false) {
+	        this.setState({ wtwModal: true });
+	      } else {
+	        this.setState({ wtwModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'ybActiveModal',
+	    value: function ybActiveModal() {
+	      if (this.state.ybModal === false) {
+	        this.setState({ ybModal: true });
+	      } else {
+	        this.setState({ ybModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'hmActiveModal',
+	    value: function hmActiveModal() {
+	      if (this.state.hmModal === false) {
+	        this.setState({ hmModal: true });
+	      } else {
+	        this.setState({ hmModal: false });
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { className: 'portfolio table', id: 'portfolio' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          ' PORTFOLIO '
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'port' },
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.hsActiveModal, className: 'port__item', id: 'headshoppe', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text' },
+	              ' Headshoppe '
+	            ),
+	            _react2.default.createElement(
+	              'video',
+	              { id: 'hsvid', playsInline: true, autoPlay: true, muted: true, loop: true },
+	              _react2.default.createElement('source', { src: './images/headshoppe.mp4', type: 'video/mp4' })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.hsModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.hsActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement('img', { id: 'hsLogo', className: 'port__modal__text', src: './images/headshoppe.png' }),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' Headshoppe is a website designed for the record label 1432R and their art collective Extended Family. The website acts a base for the label\'s online store, blog, and podcast. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.headshoppe.net/', target: '_blank' },
+	                _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www.svg' }),
+	                ' '
+	              ),
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-unavailable.svg' })
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.hsActiveModal })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.pbActiveModal, className: 'port__item', id: 'public', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text publicText' },
+	              ' PUBLIC '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text publicText', id: 'publicText2' },
+	              ' \u30D1\u30D6\u30EA\u30C3\u30AF '
+	            ),
+	            _react2.default.createElement(
+	              'video',
+	              { id: 'pbvid', playsInline: true, autoPlay: true, muted: true, loop: true },
+	              _react2.default.createElement('source', { src: './images/public.webm', type: 'video/webm' })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.pbModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.pbActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement(
+	              'h1',
+	              { style: { fontSize: 30, fontFamily: 'Cinzel', letterSpacing: -.3, fontWeight: 100, marginBottom: 20 } },
+	              ' PUBLIC.GROUP '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' Public Group is a design firm I work for assisting in web development and sound design. This firm\'s website is a recent assignment of mine'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'http://publicstudio.ml/', target: '_blank' },
+	                _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www.svg' }),
+	                ' '
+	              ),
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-unavailable.svg' })
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.pbActiveModal })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.bsActiveModal, className: 'port__item', id: 'bandspace', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(_reactSvgInline2.default, { className: 'bssvg', svg: _amplifier2.default }),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text' },
+	              ' Bandspace '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.bsModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.bsActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__header' },
+	              ' BandSpace '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' BandSpace is a conceptual peer to peer reviewing website developed with React, Redux, and MongoDB. The concept of the platform is to give working musicians a space to vent grievances with owners of venues and vice versa. The goal of the app is to create transparency in a field that lacks it and establish a frame work for peer to peer "review" websites for implementation of a groups feature. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://band-space.herokuapp.com/', target: '_blank' },
+	                _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www.svg' }),
+	                ' '
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/rdhenderson/project-3', target: '_blank' },
+	                ' ',
+	                _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-original.svg' }),
+	                ' '
+	              )
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.bsActiveModal })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.wtwActiveModal, style: { backgroundColor: "grey" }, className: 'port__item', id: 'whatToWatch', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text', id: 'wtwText' },
+	              ' What to Watch '
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.wtwModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.wtwActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement(
+	              'h2',
+	              { id: 'wtwText', style: { textAlign: "left" } },
+	              ' What To Watch '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' What to Watch is a movie finder app powered by the Indico text and image analysis API and the Moviedb API. Using a picture of your face taken from your webcam and a few writing prompts What to Watch analyzes your mood and preferences to find a movie to suit your needs. The project is currently being refactored to incorporate the Netflix API and Angular for speed and more precise results. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www-unavailable.svg' }),
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-unavailable.svg' })
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.wtwActiveModal })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.ybActiveModal, className: 'port__item', id: 'yoBrew', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text' },
+	              ' Yo Brew! '
+	            ),
+	            _react2.default.createElement('img', { id: 'yobrew', src: 'images/yobrew.jpg' })
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.ybModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.ybActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__header' },
+	              ' Yo Brew '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' Yo Brew! was a challenge to develop a minimalistic app with a large dataset. Utilizing HandlbarsJS, Sequelize, and Express this app looks up breweries in your area and allows you to save favorite beers and breweries. Currently being refactored. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www-unavailable.svg' }),
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-unavailable.svg' })
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.ybActiveModal })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { onClick: this.hmActiveModal, style: { backgroundColor: "black" }, className: 'port__item', id: 'hangman', 'data-aos': 'fade-up' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__item__text' },
+	              ' Hangman '
+	            ),
+	            _react2.default.createElement(_reactSvgInline2.default, { style: { fill: "blue" }, className: 'bssvg', svg: _HM2.default })
+	          ),
+	          _react2.default.createElement(
+	            _reactModal2.default,
+	            {
+	              isOpen: this.state.hmModal,
+	              style: customStyles,
+	              contentLabel: 'Example Modal',
+	              onClick: this.hmActiveModal,
+	              className: 'port__modal'
+	            },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__header' },
+	              ' Hangman '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'port__modal__text' },
+	              ' A simple Hangman app used primarily to experiment with the GreenSock animation platform. Currently being refactored for React. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'modalLinks' },
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/www-unavailable.svg' }),
+	              _react2.default.createElement('img', { className: 'port__modal__svg', src: 'images/devicons/github-unavailable.svg' })
+	            ),
+	            _react2.default.createElement('img', { className: 'port__modal__x', src: 'images/devicons/x.svg', onClick: this.hmActiveModal })
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Portfolio;
+	}(_react.Component);
 	
 	exports.default = Portfolio;
 
 /***/ }),
 /* 265 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Modal = __webpack_require__(266);
+	
+	var _Modal2 = _interopRequireDefault(_Modal);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.default = _Modal2.default;
+
+/***/ }),
+/* 266 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.bodyOpenClassName = exports.portalClassName = undefined;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(78);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(113);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _propTypes = __webpack_require__(267);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _ModalPortal = __webpack_require__(269);
+	
+	var _ModalPortal2 = _interopRequireDefault(_ModalPortal);
+	
+	var _ariaAppHider = __webpack_require__(273);
+	
+	var ariaAppHider = _interopRequireWildcard(_ariaAppHider);
+	
+	var _safeHTMLElement = __webpack_require__(276);
+	
+	var _safeHTMLElement2 = _interopRequireDefault(_safeHTMLElement);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var portalClassName = exports.portalClassName = 'ReactModalPortal';
+	var bodyOpenClassName = exports.bodyOpenClassName = 'ReactModal__Body--open';
+	
+	var renderSubtreeIntoContainer = _reactDom2.default.unstable_renderSubtreeIntoContainer;
+	
+	function getParentElement(parentSelector) {
+	  return parentSelector();
+	}
+	
+	var Modal = function (_Component) {
+	  _inherits(Modal, _Component);
+	
+	  function Modal() {
+	    var _ref;
+	
+	    var _temp, _this, _ret;
+	
+	    _classCallCheck(this, Modal);
+	
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+	
+	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Modal.__proto__ || Object.getPrototypeOf(Modal)).call.apply(_ref, [this].concat(args))), _this), _this.removePortal = function () {
+	      _reactDom2.default.unmountComponentAtNode(_this.node);
+	      var parent = getParentElement(_this.props.parentSelector);
+	      parent.removeChild(_this.node);
+	    }, _this.renderPortal = function (props) {
+	      _this.portal = renderSubtreeIntoContainer(_this, _react2.default.createElement(_ModalPortal2.default, _extends({ defaultStyles: Modal.defaultStyles }, props)), _this.node);
+	    }, _temp), _possibleConstructorReturn(_this, _ret);
+	  }
+	
+	  _createClass(Modal, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.node = document.createElement('div');
+	      this.node.className = this.props.portalClassName;
+	
+	      var parent = getParentElement(this.props.parentSelector);
+	      parent.appendChild(this.node);
+	
+	      this.renderPortal(this.props);
+	    }
+	  }, {
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(newProps) {
+	      var isOpen = newProps.isOpen;
+	      // Stop unnecessary renders if modal is remaining closed
+	
+	      if (!this.props.isOpen && !isOpen) return;
+	
+	      var currentParent = getParentElement(this.props.parentSelector);
+	      var newParent = getParentElement(newProps.parentSelector);
+	
+	      if (newParent !== currentParent) {
+	        currentParent.removeChild(this.node);
+	        newParent.appendChild(this.node);
+	      }
+	
+	      this.renderPortal(newProps);
+	    }
+	  }, {
+	    key: 'componentWillUpdate',
+	    value: function componentWillUpdate(newProps) {
+	      if (newProps.portalClassName !== this.props.portalClassName) {
+	        this.node.className = newProps.portalClassName;
+	      }
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      if (!this.node) return;
+	
+	      var state = this.portal.state;
+	      var now = Date.now();
+	      var closesAt = state.isOpen && this.props.closeTimeoutMS && (state.closesAt || now + this.props.closeTimeoutMS);
+	
+	      if (closesAt) {
+	        if (!state.beforeClose) {
+	          this.portal.closeWithTimeout();
+	        }
+	
+	        setTimeout(this.removePortal, closesAt - now);
+	      } else {
+	        this.removePortal();
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return null;
+	    }
+	  }], [{
+	    key: 'setAppElement',
+	    value: function setAppElement(element) {
+	      ariaAppHider.setElement(element);
+	    }
+	
+	    /* eslint-disable no-console */
+	
+	  }, {
+	    key: 'injectCSS',
+	    value: function injectCSS() {
+	      process.env.NODE_ENV !== "production" && console.warn('React-Modal: injectCSS has been deprecated ' + 'and no longer has any effect. It will be removed in a later version');
+	    }
+	    /* eslint-enable no-console */
+	
+	    /* eslint-disable react/no-unused-prop-types */
+	
+	    /* eslint-enable react/no-unused-prop-types */
+	
+	  }]);
+	
+	  return Modal;
+	}(_react.Component);
+	
+	Modal.propTypes = {
+	  isOpen: _propTypes2.default.bool.isRequired,
+	  style: _propTypes2.default.shape({
+	    content: _propTypes2.default.object,
+	    overlay: _propTypes2.default.object
+	  }),
+	  portalClassName: _propTypes2.default.string,
+	  bodyOpenClassName: _propTypes2.default.string,
+	  className: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.object]),
+	  overlayClassName: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.object]),
+	  appElement: _propTypes2.default.instanceOf(_safeHTMLElement2.default),
+	  onAfterOpen: _propTypes2.default.func,
+	  onRequestClose: _propTypes2.default.func,
+	  closeTimeoutMS: _propTypes2.default.number,
+	  ariaHideApp: _propTypes2.default.bool,
+	  shouldCloseOnOverlayClick: _propTypes2.default.bool,
+	  parentSelector: _propTypes2.default.func,
+	  aria: _propTypes2.default.object,
+	  role: _propTypes2.default.string,
+	  contentLabel: _propTypes2.default.string.isRequired
+	};
+	Modal.defaultProps = {
+	  isOpen: false,
+	  portalClassName: portalClassName,
+	  bodyOpenClassName: bodyOpenClassName,
+	  ariaHideApp: true,
+	  closeTimeoutMS: 0,
+	  shouldCloseOnOverlayClick: true,
+	  parentSelector: function parentSelector() {
+	    return document.body;
+	  }
+	};
+	Modal.defaultStyles = {
+	  overlay: {
+	    position: 'fixed',
+	    top: 0,
+	    left: 0,
+	    right: 0,
+	    bottom: 0,
+	    backgroundColor: 'rgba(255, 255, 255, 0.75)'
+	  },
+	  content: {
+	    position: 'absolute',
+	    top: '40px',
+	    left: '40px',
+	    right: '40px',
+	    bottom: '40px',
+	    border: '1px solid #ccc',
+	    background: '#fff',
+	    overflow: 'auto',
+	    WebkitOverflowScrolling: 'touch',
+	    borderRadius: '4px',
+	    outline: 'none',
+	    padding: '20px'
+	  }
+	};
+	exports.default = Modal;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
+
+/***/ }),
+/* 267 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 */
+	
+	if (process.env.NODE_ENV !== 'production') {
+	  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
+	    Symbol.for &&
+	    Symbol.for('react.element')) ||
+	    0xeac7;
+	
+	  var isValidElement = function(object) {
+	    return typeof object === 'object' &&
+	      object !== null &&
+	      object.$$typeof === REACT_ELEMENT_TYPE;
+	  };
+	
+	  // By explicitly using `prop-types` you are opting into new development behavior.
+	  // http://fb.me/prop-types-in-prod
+	  var throwOnDirectAccess = true;
+	  module.exports = __webpack_require__(106)(isValidElement, throwOnDirectAccess);
+	} else {
+	  // By explicitly using `prop-types` you are opting into new production behavior.
+	  // http://fb.me/prop-types-in-prod
+	  module.exports = __webpack_require__(268)();
+	}
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
+
+/***/ }),
+/* 268 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 */
+	
+	'use strict';
+	
+	var emptyFunction = __webpack_require__(85);
+	var invariant = __webpack_require__(88);
+	var ReactPropTypesSecret = __webpack_require__(107);
+	
+	module.exports = function() {
+	  function shim(props, propName, componentName, location, propFullName, secret) {
+	    if (secret === ReactPropTypesSecret) {
+	      // It is still safe when called from React.
+	      return;
+	    }
+	    invariant(
+	      false,
+	      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+	      'Use PropTypes.checkPropTypes() to call them. ' +
+	      'Read more at http://fb.me/use-check-prop-types'
+	    );
+	  };
+	  shim.isRequired = shim;
+	  function getShim() {
+	    return shim;
+	  };
+	  // Important!
+	  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
+	  var ReactPropTypes = {
+	    array: shim,
+	    bool: shim,
+	    func: shim,
+	    number: shim,
+	    object: shim,
+	    string: shim,
+	    symbol: shim,
+	
+	    any: shim,
+	    arrayOf: getShim,
+	    element: shim,
+	    instanceOf: getShim,
+	    node: shim,
+	    objectOf: getShim,
+	    oneOf: getShim,
+	    oneOfType: getShim,
+	    shape: getShim
+	  };
+	
+	  ReactPropTypes.checkPropTypes = emptyFunction;
+	  ReactPropTypes.PropTypes = ReactPropTypes;
+	
+	  return ReactPropTypes;
+	};
+
+
+/***/ }),
+/* 269 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(78);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(267);
+	
+	var _focusManager = __webpack_require__(270);
+	
+	var focusManager = _interopRequireWildcard(_focusManager);
+	
+	var _scopeTab = __webpack_require__(272);
+	
+	var _scopeTab2 = _interopRequireDefault(_scopeTab);
+	
+	var _ariaAppHider = __webpack_require__(273);
+	
+	var ariaAppHider = _interopRequireWildcard(_ariaAppHider);
+	
+	var _refCount = __webpack_require__(274);
+	
+	var refCount = _interopRequireWildcard(_refCount);
+	
+	var _bodyClassList = __webpack_require__(275);
+	
+	var bodyClassList = _interopRequireWildcard(_bodyClassList);
+	
+	var _safeHTMLElement = __webpack_require__(276);
+	
+	var _safeHTMLElement2 = _interopRequireDefault(_safeHTMLElement);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	// so that our CSS is statically analyzable
+	var CLASS_NAMES = {
+	  overlay: 'ReactModal__Overlay',
+	  content: 'ReactModal__Content'
+	};
+	
+	var TAB_KEY = 9;
+	var ESC_KEY = 27;
+	
+	var ModalPortal = function (_Component) {
+	  _inherits(ModalPortal, _Component);
+	
+	  function ModalPortal(props) {
+	    _classCallCheck(this, ModalPortal);
+	
+	    var _this = _possibleConstructorReturn(this, (ModalPortal.__proto__ || Object.getPrototypeOf(ModalPortal)).call(this, props));
+	
+	    _this.setFocusAfterRender = function (focus) {
+	      _this.focusAfterRender = focus;
+	    };
+	
+	    _this.setOverlayRef = function (overlay) {
+	      _this.overlay = overlay;
+	    };
+	
+	    _this.setContentRef = function (content) {
+	      _this.content = content;
+	    };
+	
+	    _this.afterClose = function () {
+	      focusManager.returnFocus();
+	      focusManager.teardownScopedFocus();
+	    };
+	
+	    _this.open = function () {
+	      _this.beforeOpen();
+	      if (_this.state.afterOpen && _this.state.beforeClose) {
+	        clearTimeout(_this.closeTimer);
+	        _this.setState({ beforeClose: false });
+	      } else {
+	        focusManager.setupScopedFocus(_this.node);
+	        focusManager.markForFocusLater();
+	        _this.setState({ isOpen: true }, function () {
+	          _this.setState({ afterOpen: true });
+	
+	          if (_this.props.isOpen && _this.props.onAfterOpen) {
+	            _this.props.onAfterOpen();
+	          }
+	        });
+	      }
+	    };
+	
+	    _this.close = function () {
+	      _this.beforeClose();
+	      if (_this.props.closeTimeoutMS > 0) {
+	        _this.closeWithTimeout();
+	      } else {
+	        _this.closeWithoutTimeout();
+	      }
+	    };
+	
+	    _this.focusContent = function () {
+	      return _this.content && !_this.contentHasFocus() && _this.content.focus();
+	    };
+	
+	    _this.closeWithTimeout = function () {
+	      var closesAt = Date.now() + _this.props.closeTimeoutMS;
+	      _this.setState({ beforeClose: true, closesAt: closesAt }, function () {
+	        _this.closeTimer = setTimeout(_this.closeWithoutTimeout, _this.state.closesAt - Date.now());
+	      });
+	    };
+	
+	    _this.closeWithoutTimeout = function () {
+	      _this.setState({
+	        beforeClose: false,
+	        isOpen: false,
+	        afterOpen: false,
+	        closesAt: null
+	      }, _this.afterClose);
+	    };
+	
+	    _this.handleKeyDown = function (event) {
+	      if (event.keyCode === TAB_KEY) {
+	        (0, _scopeTab2.default)(_this.content, event);
+	      }
+	      if (event.keyCode === ESC_KEY) {
+	        event.preventDefault();
+	        _this.requestClose(event);
+	      }
+	    };
+	
+	    _this.handleOverlayOnClick = function (event) {
+	      if (_this.shouldClose === null) {
+	        _this.shouldClose = true;
+	      }
+	
+	      if (_this.shouldClose && _this.props.shouldCloseOnOverlayClick) {
+	        if (_this.ownerHandlesClose()) {
+	          _this.requestClose(event);
+	        } else {
+	          _this.focusContent();
+	        }
+	      }
+	      _this.shouldClose = null;
+	    };
+	
+	    _this.handleContentOnClick = function () {
+	      _this.shouldClose = false;
+	    };
+	
+	    _this.requestClose = function (event) {
+	      return _this.ownerHandlesClose() && _this.props.onRequestClose(event);
+	    };
+	
+	    _this.ownerHandlesClose = function () {
+	      return _this.props.onRequestClose;
+	    };
+	
+	    _this.shouldBeClosed = function () {
+	      return !_this.state.isOpen && !_this.state.beforeClose;
+	    };
+	
+	    _this.contentHasFocus = function () {
+	      return document.activeElement === _this.content || _this.content.contains(document.activeElement);
+	    };
+	
+	    _this.buildClassName = function (which, additional) {
+	      var classNames = (typeof additional === 'undefined' ? 'undefined' : _typeof(additional)) === 'object' ? additional : {
+	        base: CLASS_NAMES[which],
+	        afterOpen: CLASS_NAMES[which] + '--after-open',
+	        beforeClose: CLASS_NAMES[which] + '--before-close'
+	      };
+	      var className = classNames.base;
+	      if (_this.state.afterOpen) {
+	        className = className + ' ' + classNames.afterOpen;
+	      }
+	      if (_this.state.beforeClose) {
+	        className = className + ' ' + classNames.beforeClose;
+	      }
+	      return typeof additional === 'string' && additional ? className + ' ' + additional : className;
+	    };
+	
+	    _this.ariaAttributes = function (items) {
+	      return Object.keys(items).reduce(function (acc, name) {
+	        acc['aria-' + name] = items[name];
+	        return acc;
+	      }, {});
+	    };
+	
+	    _this.state = {
+	      afterOpen: false,
+	      beforeClose: false
+	    };
+	
+	    _this.shouldClose = null;
+	    return _this;
+	  }
+	
+	  _createClass(ModalPortal, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      // Focus needs to be set when mounting and already open
+	      if (this.props.isOpen) {
+	        this.setFocusAfterRender(true);
+	        this.open();
+	      }
+	    }
+	  }, {
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(newProps) {
+	      if (process.env.NODE_ENV !== "production") {
+	        if (newProps.bodyOpenClassName !== this.props.bodyOpenClassName) {
+	          // eslint-disable-next-line no-console
+	          console.warn('React-Modal: "bodyOpenClassName" prop has been modified. ' + 'This may cause unexpected behavior when multiple modals are open.');
+	        }
+	      }
+	      // Focus only needs to be set once when the modal is being opened
+	      if (!this.props.isOpen && newProps.isOpen) {
+	        this.setFocusAfterRender(true);
+	        this.open();
+	      } else if (this.props.isOpen && !newProps.isOpen) {
+	        this.close();
+	      }
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate() {
+	      if (this.focusAfterRender) {
+	        this.focusContent();
+	        this.setFocusAfterRender(false);
+	      }
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.beforeClose();
+	      clearTimeout(this.closeTimer);
+	    }
+	  }, {
+	    key: 'beforeOpen',
+	    value: function beforeOpen() {
+	      var _props = this.props,
+	          appElement = _props.appElement,
+	          ariaHideApp = _props.ariaHideApp,
+	          bodyOpenClassName = _props.bodyOpenClassName;
+	      // Add body class
+	
+	      bodyClassList.add(bodyOpenClassName);
+	      // Add aria-hidden to appElement
+	      if (ariaHideApp) {
+	        ariaAppHider.hide(appElement);
+	      }
+	    }
+	  }, {
+	    key: 'beforeClose',
+	    value: function beforeClose() {
+	      var _props2 = this.props,
+	          appElement = _props2.appElement,
+	          ariaHideApp = _props2.ariaHideApp,
+	          bodyOpenClassName = _props2.bodyOpenClassName;
+	      // Remove class if no more modals are open
+	
+	      bodyClassList.remove(bodyOpenClassName);
+	      // Reset aria-hidden attribute if all modals have been removed
+	      if (ariaHideApp && refCount.totalCount() < 1) {
+	        ariaAppHider.show(appElement);
+	      }
+	    }
+	
+	    // Don't steal focus from inner elements
+	
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props3 = this.props,
+	          className = _props3.className,
+	          overlayClassName = _props3.overlayClassName,
+	          defaultStyles = _props3.defaultStyles;
+	
+	      var contentStyles = className ? {} : defaultStyles.content;
+	      var overlayStyles = overlayClassName ? {} : defaultStyles.overlay;
+	
+	      return this.shouldBeClosed() ? null : _react2.default.createElement(
+	        'div',
+	        {
+	          ref: this.setOverlayRef,
+	          className: this.buildClassName('overlay', overlayClassName),
+	          style: _extends({}, overlayStyles, this.props.style.overlay),
+	          onClick: this.handleOverlayOnClick },
+	        _react2.default.createElement(
+	          'div',
+	          _extends({
+	            ref: this.setContentRef,
+	            style: _extends({}, contentStyles, this.props.style.content),
+	            className: this.buildClassName('content', className),
+	            tabIndex: '-1',
+	            onKeyDown: this.handleKeyDown,
+	            onClick: this.handleContentOnClick,
+	            role: this.props.role,
+	            'aria-label': this.props.contentLabel
+	          }, this.ariaAttributes(this.props.aria || {})),
+	          this.props.children
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ModalPortal;
+	}(_react.Component);
+	
+	ModalPortal.defaultProps = {
+	  style: {
+	    overlay: {},
+	    content: {}
+	  }
+	};
+	ModalPortal.propTypes = {
+	  isOpen: _propTypes.PropTypes.bool.isRequired,
+	  defaultStyles: _propTypes.PropTypes.shape({
+	    content: _propTypes.PropTypes.object,
+	    overlay: _propTypes.PropTypes.object
+	  }),
+	  style: _propTypes.PropTypes.shape({
+	    content: _propTypes.PropTypes.object,
+	    overlay: _propTypes.PropTypes.object
+	  }),
+	  className: _propTypes.PropTypes.oneOfType([_propTypes.PropTypes.string, _propTypes.PropTypes.object]),
+	  overlayClassName: _propTypes.PropTypes.oneOfType([_propTypes.PropTypes.string, _propTypes.PropTypes.object]),
+	  bodyOpenClassName: _propTypes.PropTypes.string,
+	  ariaHideApp: _propTypes.PropTypes.bool,
+	  appElement: _propTypes.PropTypes.instanceOf(_safeHTMLElement2.default),
+	  onAfterOpen: _propTypes.PropTypes.func,
+	  onRequestClose: _propTypes.PropTypes.func,
+	  closeTimeoutMS: _propTypes.PropTypes.number,
+	  shouldCloseOnOverlayClick: _propTypes.PropTypes.bool,
+	  role: _propTypes.PropTypes.string,
+	  contentLabel: _propTypes.PropTypes.string,
+	  aria: _propTypes.PropTypes.object,
+	  children: _propTypes.PropTypes.node
+	};
+	exports.default = ModalPortal;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
+
+/***/ }),
+/* 270 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.handleBlur = handleBlur;
+	exports.handleFocus = handleFocus;
+	exports.markForFocusLater = markForFocusLater;
+	exports.returnFocus = returnFocus;
+	exports.setupScopedFocus = setupScopedFocus;
+	exports.teardownScopedFocus = teardownScopedFocus;
+	
+	var _tabbable = __webpack_require__(271);
+	
+	var _tabbable2 = _interopRequireDefault(_tabbable);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var focusLaterElements = [];
+	var modalElement = null;
+	var needToFocus = false;
+	
+	function handleBlur() {
+	  needToFocus = true;
+	}
+	
+	function handleFocus() {
+	  if (needToFocus) {
+	    needToFocus = false;
+	    if (!modalElement) {
+	      return;
+	    }
+	    // need to see how jQuery shims document.on('focusin') so we don't need the
+	    // setTimeout, firefox doesn't support focusin, if it did, we could focus
+	    // the element outside of a setTimeout. Side-effect of this implementation
+	    // is that the document.body gets focus, and then we focus our element right
+	    // after, seems fine.
+	    setTimeout(function () {
+	      if (modalElement.contains(document.activeElement)) {
+	        return;
+	      }
+	      var el = (0, _tabbable2.default)(modalElement)[0] || modalElement;
+	      el.focus();
+	    }, 0);
+	  }
+	}
+	
+	function markForFocusLater() {
+	  focusLaterElements.push(document.activeElement);
+	}
+	
+	/* eslint-disable no-console */
+	function returnFocus() {
+	  var toFocus = null;
+	  try {
+	    toFocus = focusLaterElements.pop();
+	    toFocus.focus();
+	    return;
+	  } catch (e) {
+	    console.warn(['You tried to return focus to', toFocus, 'but it is not in the DOM anymore'].join(" "));
+	  }
+	}
+	/* eslint-enable no-console */
+	
+	function setupScopedFocus(element) {
+	  modalElement = element;
+	
+	  if (window.addEventListener) {
+	    window.addEventListener('blur', handleBlur, false);
+	    document.addEventListener('focus', handleFocus, true);
+	  } else {
+	    window.attachEvent('onBlur', handleBlur);
+	    document.attachEvent('onFocus', handleFocus);
+	  }
+	}
+	
+	function teardownScopedFocus() {
+	  modalElement = null;
+	
+	  if (window.addEventListener) {
+	    window.removeEventListener('blur', handleBlur);
+	    document.removeEventListener('focus', handleFocus);
+	  } else {
+	    window.detachEvent('onBlur', handleBlur);
+	    document.detachEvent('onFocus', handleFocus);
+	  }
+	}
+
+/***/ }),
+/* 271 */
+/***/ (function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = findTabbableDescendants;
+	/*!
+	 * Adapted from jQuery UI core
+	 *
+	 * http://jqueryui.com
+	 *
+	 * Copyright 2014 jQuery Foundation and other contributors
+	 * Released under the MIT license.
+	 * http://jquery.org/license
+	 *
+	 * http://api.jqueryui.com/category/ui-core/
+	 */
+	
+	var tabbableNode = /input|select|textarea|button|object/;
+	
+	function hidden(el) {
+	  return el.offsetWidth <= 0 && el.offsetHeight <= 0 || el.style.display === 'none';
+	}
+	
+	function visible(element) {
+	  var parentElement = element;
+	  while (parentElement) {
+	    if (parentElement === document.body) break;
+	    if (hidden(parentElement)) return false;
+	    parentElement = parentElement.parentNode;
+	  }
+	  return true;
+	}
+	
+	function focusable(element, isTabIndexNotNaN) {
+	  var nodeName = element.nodeName.toLowerCase();
+	  var res = tabbableNode.test(nodeName) && !element.disabled || (nodeName === "a" ? element.href || isTabIndexNotNaN : isTabIndexNotNaN);
+	  return res && visible(element);
+	}
+	
+	function tabbable(element) {
+	  var tabIndex = element.getAttribute('tabindex');
+	  if (tabIndex === null) tabIndex = undefined;
+	  var isTabIndexNaN = isNaN(tabIndex);
+	  return (isTabIndexNaN || tabIndex >= 0) && focusable(element, !isTabIndexNaN);
+	}
+	
+	function findTabbableDescendants(element) {
+	  return [].slice.call(element.querySelectorAll('*'), 0).filter(tabbable);
+	}
+
+/***/ }),
+/* 272 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = scopeTab;
+	
+	var _tabbable = __webpack_require__(271);
+	
+	var _tabbable2 = _interopRequireDefault(_tabbable);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function scopeTab(node, event) {
+	  var tabbable = (0, _tabbable2.default)(node);
+	  if (!tabbable.length) {
+	    event.preventDefault();
+	    return;
+	  }
+	  var finalTabbable = tabbable[event.shiftKey ? 0 : tabbable.length - 1];
+	  var leavingFinalTabbable = finalTabbable === document.activeElement ||
+	  // handle immediate shift+tab after opening with mouse
+	  node === document.activeElement;
+	  if (!leavingFinalTabbable) return;
+	  event.preventDefault();
+	  var target = tabbable[event.shiftKey ? tabbable.length - 1 : 0];
+	  target.focus();
+	}
+
+/***/ }),
+/* 273 */
+/***/ (function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.assertNodeList = assertNodeList;
+	exports.setElement = setElement;
+	exports.tryForceFallback = tryForceFallback;
+	exports.validateElement = validateElement;
+	exports.hide = hide;
+	exports.show = show;
+	exports.documentNotReadyOrSSRTesting = documentNotReadyOrSSRTesting;
+	exports.resetForTesting = resetForTesting;
+	var globalElement = null;
+	
+	function assertNodeList(nodeList, selector) {
+	  if (!nodeList || !nodeList.length) {
+	    throw new Error('react-modal: No elements were found for selector ' + selector + '.');
+	  }
+	}
+	
+	function setElement(element) {
+	  var useElement = element;
+	  if (typeof useElement === 'string') {
+	    var el = document.querySelectorAll(useElement);
+	    assertNodeList(el, useElement);
+	    useElement = 'length' in el ? el[0] : el;
+	  }
+	  globalElement = useElement || globalElement;
+	  return globalElement;
+	}
+	
+	function tryForceFallback() {
+	  if (document && document.body) {
+	    // force fallback to document.body
+	    setElement(document.body);
+	    return true;
+	  }
+	  return false;
+	}
+	
+	function validateElement(appElement) {
+	  if (!appElement && !globalElement && !tryForceFallback()) {
+	    throw new Error(['react-modal: Cannot fallback to `document.body`, because it\'s not ready or available.', 'If you are doing server-side rendering, use this function to defined an element.', '`Modal.setAppElement(el)` to make this accessible']);
+	  }
+	}
+	
+	function hide(appElement) {
+	  validateElement(appElement);
+	  (appElement || globalElement).setAttribute('aria-hidden', 'true');
+	}
+	
+	function show(appElement) {
+	  validateElement(appElement);
+	  (appElement || globalElement).removeAttribute('aria-hidden');
+	}
+	
+	function documentNotReadyOrSSRTesting() {
+	  globalElement = null;
+	}
+	
+	function resetForTesting() {
+	  globalElement = document.body;
+	}
+
+/***/ }),
+/* 274 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.get = get;
+	exports.add = add;
+	exports.remove = remove;
+	exports.totalCount = totalCount;
+	var classListMap = {};
+	
+	function get() {
+	  return classListMap;
+	}
+	
+	function add(bodyClass) {
+	  // Set variable and default if none
+	  if (!classListMap[bodyClass]) {
+	    classListMap[bodyClass] = 0;
+	  }
+	  classListMap[bodyClass] += 1;
+	  return bodyClass;
+	}
+	
+	function remove(bodyClass) {
+	  if (classListMap[bodyClass]) {
+	    classListMap[bodyClass] -= 1;
+	  }
+	  return bodyClass;
+	}
+	
+	function totalCount() {
+	  return Object.keys(classListMap).reduce(function (acc, curr) {
+	    return acc + classListMap[curr];
+	  }, 0);
+	}
+
+/***/ }),
+/* 275 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.add = add;
+	exports.remove = remove;
+	
+	var _refCount = __webpack_require__(274);
+	
+	var refCount = _interopRequireWildcard(_refCount);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	function add(bodyClass) {
+	  // Increment class(es) on refCount tracker and add class(es) to body
+	  bodyClass.split(' ').map(refCount.add).forEach(function (className) {
+	    return document.body.classList.add(className);
+	  });
+	}
+	
+	function remove(bodyClass) {
+	  var classListMap = refCount.get();
+	  // Decrement class(es) from the refCount tracker
+	  // and remove unused class(es) from body
+	  bodyClass.split(' ').map(refCount.remove).filter(function (className) {
+	    return classListMap[className] === 0;
+	  }).forEach(function (className) {
+	    return document.body.classList.remove(className);
+	  });
+	}
+
+/***/ }),
+/* 276 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _exenv = __webpack_require__(277);
+	
+	var _exenv2 = _interopRequireDefault(_exenv);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var EE = _exenv2.default;
+	
+	var SafeHTMLElement = EE.canUseDOM ? window.HTMLElement : {};
+	
+	exports.default = SafeHTMLElement;
+
+/***/ }),
+/* 277 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2015 Jed Watson.
+	  Based on code that is Copyright 2013-2015, Facebook, Inc.
+	  All rights reserved.
+	*/
+	
+	(function () {
+		'use strict';
+	
+		var canUseDOM = !!(
+			typeof window !== 'undefined' &&
+			window.document &&
+			window.document.createElement
+		);
+	
+		var ExecutionEnvironment = {
+	
+			canUseDOM: canUseDOM,
+	
+			canUseWorkers: typeof Worker !== 'undefined',
+	
+			canUseEventListeners:
+				canUseDOM && !!(window.addEventListener || window.attachEvent),
+	
+			canUseViewport: canUseDOM && !!window.screen
+	
+		};
+	
+		if (true) {
+			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return ExecutionEnvironment;
+			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else if (typeof module !== 'undefined' && module.exports) {
+			module.exports = ExecutionEnvironment;
+		} else {
+			window.ExecutionEnvironment = ExecutionEnvironment;
+		}
+	
+	}());
+
+
+/***/ }),
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -95451,11 +96886,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _propTypes = __webpack_require__(266);
+	var _propTypes = __webpack_require__(267);
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _classnames = __webpack_require__(268);
+	var _classnames = __webpack_require__(279);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
@@ -95592,109 +97027,7 @@
 	exports.default = SVGInline;
 
 /***/ }),
-/* 266 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 */
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var REACT_ELEMENT_TYPE = (typeof Symbol === 'function' &&
-	    Symbol.for &&
-	    Symbol.for('react.element')) ||
-	    0xeac7;
-	
-	  var isValidElement = function(object) {
-	    return typeof object === 'object' &&
-	      object !== null &&
-	      object.$$typeof === REACT_ELEMENT_TYPE;
-	  };
-	
-	  // By explicitly using `prop-types` you are opting into new development behavior.
-	  // http://fb.me/prop-types-in-prod
-	  var throwOnDirectAccess = true;
-	  module.exports = __webpack_require__(106)(isValidElement, throwOnDirectAccess);
-	} else {
-	  // By explicitly using `prop-types` you are opting into new production behavior.
-	  // http://fb.me/prop-types-in-prod
-	  module.exports = __webpack_require__(267)();
-	}
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
-
-/***/ }),
-/* 267 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 */
-	
-	'use strict';
-	
-	var emptyFunction = __webpack_require__(85);
-	var invariant = __webpack_require__(88);
-	var ReactPropTypesSecret = __webpack_require__(107);
-	
-	module.exports = function() {
-	  function shim(props, propName, componentName, location, propFullName, secret) {
-	    if (secret === ReactPropTypesSecret) {
-	      // It is still safe when called from React.
-	      return;
-	    }
-	    invariant(
-	      false,
-	      'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
-	      'Use PropTypes.checkPropTypes() to call them. ' +
-	      'Read more at http://fb.me/use-check-prop-types'
-	    );
-	  };
-	  shim.isRequired = shim;
-	  function getShim() {
-	    return shim;
-	  };
-	  // Important!
-	  // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
-	  var ReactPropTypes = {
-	    array: shim,
-	    bool: shim,
-	    func: shim,
-	    number: shim,
-	    object: shim,
-	    string: shim,
-	    symbol: shim,
-	
-	    any: shim,
-	    arrayOf: getShim,
-	    element: shim,
-	    instanceOf: getShim,
-	    node: shim,
-	    objectOf: getShim,
-	    oneOf: getShim,
-	    oneOfType: getShim,
-	    shape: getShim
-	  };
-	
-	  ReactPropTypes.checkPropTypes = emptyFunction;
-	  ReactPropTypes.PropTypes = ReactPropTypes;
-	
-	  return ReactPropTypes;
-	};
-
-
-/***/ }),
-/* 268 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -95748,13 +97081,19 @@
 
 
 /***/ }),
-/* 269 */
+/* 280 */
 /***/ (function(module, exports) {
 
 	module.exports = "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\r\n<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 59 59\" style=\"enable-background:new 0 0 59 59;\" xml:space=\"preserve\">\r\n<g>\r\n\t<polygon style=\"fill:#556080;\" points=\"57.5,13 50.5,13 50.5,6 8.5,6 8.5,13 1.5,13 1.5,51 8.5,51 8.5,58 50.5,58 50.5,51 57.5,51\r\n\t\t\t\"/>\r\n</g>\r\n<polygon style=\"fill:#343B4C;\" points=\"50.5,13 50.5,10 8.5,10 8.5,13 1.5,13 1.5,24 57.5,24 57.5,13 \"/>\r\n<g className=\"ampholes\">\r\n\t<circle style=\"fill:#16181E;\" cx=\"10.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"16.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"22.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"28.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"34.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"40.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"46.5\" cy=\"11\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"4.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"7.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"7.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"10.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"13.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"13.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"16.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"19.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"19.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"22.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"25.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"25.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"28.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"31.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"31.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"34.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"37.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"37.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"40.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"43.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"43.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"46.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"49.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"49.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"52.5\" cy=\"17\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"55.5\" cy=\"14\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"55.5\" cy=\"20\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"4.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"10.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"16.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"22.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"28.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"34.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"40.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"46.5\" cy=\"23\" r=\"1\"/>\r\n\t<circle style=\"fill:#16181E;\" cx=\"52.5\" cy=\"23\" r=\"1\"/>\r\n</g>\r\n<path style=\"fill:#E4C05C;\" d=\"M50.5,13V5h2.841C56.19,5,58.5,7.31,58.5,10.159V13H50.5z\"/>\r\n<path style=\"fill:#E4C05C;\" d=\"M8.5,13h-8v-2.841C0.5,7.31,2.81,5,5.659,5H8.5V13z\"/>\r\n<path style=\"fill:#E4C05C;\" d=\"M8.5,51v8H5.659C2.81,59,0.5,56.69,0.5,53.841V51H8.5z\"/>\r\n<path style=\"fill:#E4C05C;\" d=\"M50.5,51h8v2.841C58.5,56.69,56.19,59,53.341,59H50.5V51z\"/>\r\n<path style=\"fill:#343B4C;\" d=\"M37.5,7c-0.552,0-1-0.448-1-1V2.837C36.5,2.375,36.125,2,35.663,2H23.337\r\n\tC22.875,2,22.5,2.375,22.5,2.837V6c0,0.552-0.448,1-1,1s-1-0.448-1-1V2.837C20.5,1.273,21.773,0,23.337,0h12.325\r\n\tC37.227,0,38.5,1.273,38.5,2.837V6C38.5,6.552,38.052,7,37.5,7z\"/>\r\n\r\n<rect x=\"23.5\" y=\"52\" style=\"fill:#ECF0F1;\" width=\"12\" height=\"3\"/>\r\n<g class=\"rightSpeaker\">\r\n<circle class=\"outerCircle\" style=\"fill:#343B4C;\" cx=\"42.5\" cy=\"39\" r=\"11\"/>\r\n<path style=\"fill:#232833;\" d=\"M42.5,32c-3.866,0-7,3.134-7,7c0,3.866,3.134,7,7,7s7-3.134,7-7C49.5,35.134,46.366,32,42.5,32z\r\n\t M44.5,40l-1,1h-2l-1-1v-2l1-1h2l1,1V40z\"/>\r\n<circle class=\"innerCircle\" style=\"fill:#F3D55B;\" cx=\"42.5\" cy=\"39\" r=\"3\"/>\r\n</g>\r\n\r\n<g class=\"leftSpeaker\">\r\n<circle class=\"outerCircle\" style=\"fill:#343B4C;\" cx=\"16.5\" cy=\"39\" r=\"11\"/>\r\n<path style=\"fill:#232833;\" d=\"M16.5,32c-3.866,0-7,3.134-7,7c0,3.866,3.134,7,7,7s7-3.134,7-7C23.5,35.134,20.366,32,16.5,32z\r\n\t M18.5,40l-1,1h-2l-1-1v-2l1-1h2l1,1V40z\"/>\r\n<circle class=\"innerCircle\" style=\"fill:#F3D55B;\" cx=\"16.5\" cy=\"39\" r=\"3\"/>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n<g>\r\n</g>\r\n</svg>\r\n"
 
 /***/ }),
-/* 270 */
+/* 281 */
+/***/ (function(module, exports) {
+
+	module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 826 978\" style=\"enable-background:new 0 0 826 978;\" xml:space=\"preserve\">\n<g transform=\"translate(0.000000,978.000000) scale(0.100000,-0.100000)\">\n\t<path id=\"HM0\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1009,27-3101,32-4371l3-812\n\t\tl-54-5c-64-7-95-27-136-89c-25-37-40-48-85-63c-259-86-597-219-629-248c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c21-77,31-182,31-334c0-170,7-201,49-217c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c39-15,44-20,45-48c0-17,8-166,18-331c12-209,14-302,7-307c-6-4-21-8-33-8\n\t\ts-35-12-52-26c-26-22-31-33-31-71c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100\n\t\tc-15-3-70-27-122-53c-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67\n\t\tc22,0,26-13,57-181c24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-143c14-35,13-37-20-85c-35-49-72-152-128-355\n\t\tc-24-91-29-127-29-226c0-64-5-253-11-419c-7-165-9-313-5-327c5-19,13-26,30-26c23,0,25-5,31-67c13-127,33-173,77-173\n\t\tc12,0,30,8,41,17c18,17,20,17,39-10c23-31,62-36,77-9c10,16,13,15,34-9c12-14,30-28,38-31c12-5,18-38,28-144c7-77,17-170,22-209\n\t\tc6-38,18-158,29-265l18-195l31-27c17-16,39-28,47-28c12,0,15-6,10-22c-4-13-9-77-13-143c-5-108-3-126,17-179c29-75,74-125,120-132\n\t\tc55-9,97,26,147,121c23,44,42,86,43,94c0,8,18,54,41,103s43,107,46,128c5,35,9,39,37,42c30,3,31,5,34,58c2,30-2,102-8,160\n\t\tc-15,138-59,469-65,496c-4,20,0,22,68,28c39,4,86,9,103,12l31,6l7-128c4-71,14-160,21-199c12-61,22-161,41-392c6-62,6-63,42-73\n\t\tc36-9,37-10,38-63c2-84,89-229,211-353c94-95,208-139,274-104c25,14,49,62,49,98c0,53-48,196-103,310l-54,111l33,11\n\t\tc19,6,36,15,39,20c3,4-4,66-15,136c-10,71-26,217-35,324c-8,107-20,242-26,300s-13,132-16,164l-6,60l28-22c37-29,59-28,83,5l19,26\n\t\tl18-26c22-34,74-38,82-7c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105c8,0,19,10,26,22c14,27,9,95-41,496\n\t\tc-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195c-19,21-19,22,21,85c54,87,72,158,78,321\n\t\tc3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-18,104-102,143c-75,35-83,46-94,134c-5,46-66,255-111,379\n\t\tc-22,62-128,217-175,258c-66,56-296,146-373,146c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68\n\t\tc-9,18-16,56-16,84c0,66-18,92-69,101c-38,6-40,9-45,48c-11,77-36,463-36,538v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33\n\t\tl71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144\n\t\tC5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265\n\t\tc-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13\n\t\tc-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30\n\t\tc-25-21-31-23-38-11c-5,9-6,22-3,30c3,9,1,12-4,9c-11-7-14,18-3,28C4987,9284,5000,9281,5016,9266z M3880,9253c-14-9-29-23-33-30\n\t\ts-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40s-33-6-72-6c-52,0-76,4-84,15c-17,20-6,39,30,55C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127\n\t\tl6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-73v-73l-69,22c-72,22-81,31-81,87\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4898,8876c18-16,22-30,22-83c0-35-3-63-6-63\n\t\tc-13,0-102,71-108,86c-3,9-6,42-6,75v60l38-27C4858,8908,4885,8887,4898,8876z M4687,8846c31-20,33-24,33-84c0-35-3-62-7-60\n\t\tc-5,2-27,12-50,22l-41,18l-4,69c-3,65-2,68,17,63C4646,8871,4670,8858,4687,8846z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-51,13c-28,6-28,7-22,57\n\t\tc4,28,12,53,17,55c6,2,4,7-3,12c-12,8-11,11,1,19c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704\n\t\tc35-21,71-77,70-111c-1-35-22-96-35-100c-5-2-18,10-27,27c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-15-50,20l-41,39l7,60l6,59l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4826,8478\n\t\tc8-16,12-33,9-38c-8-13-85-13-85,0c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8524,4805,8518,4826,8478z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M4000,8399c0-12-12-21-37-28c-20-6-38-9-40-7\n\t\ts1,15,7,30c5,15,10,39,10,54v26l30-29C3987,8429,4000,8408,4000,8399z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c3-48,0-71-15-98c-17-33-85-95-94-86\n\t\tc-2,2-7,41-10,87l-5,84l39,22c22,13,46,30,53,38C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79\n\t\tl2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14\n\t\tc0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47\n\t\tC4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z\n\t\t M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35\n\t\tc-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3\n\t\tC4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37\n\t\tc10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4695,7168\n\t\tc90-2,105-7,105-40c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,25-12,36c-7,15-4,17,11,12C4596,7173,4646,7170,4695,7168z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,24,83\n\t\tc44,65,44,65,97,69c29,3,56,9,61,14s11,61,15,124c6,109,39,315,72,443c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-75,35l-24,22l43,13\n\t\tc23,7,62,23,87,36c25,12,50,22,55,20C5411,5205,5425,5189,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15\n\t\tc-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4525,5106l70-11l2-34c1-18,6-38,12-44\n\t\tc24-24,8-29-74-22c-113,9-162,34-179,92c-9,29,19,45,64,37C4439,5120,4487,5112,4525,5106z M5181,5103c8-9,31-28,51-43l37-27\n\t\tl-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,5,30,11,68,13c37,2,83,4,103,5C5155,5119,5172,5114,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4961,4766\n\t\tc160-34,260-120,309-267c20-57,22-78,17-189c-8-198-60-320-163-389c-70-46-110-53-273-49c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c23,241,136,386,338,430C4824,4783,4880,4783,4961,4766z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93\n\t\tc-7,15-18,27-24,27c-18,0-38-55-32-86c7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70\n\t\tc0,20,5,21,114,21h114L5834,3629z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10\n\t\tc-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M4245,3460l2-53l-23,44c-31,58-31,81-2,70\n\t\tC4240,3515,4244,3505,4245,3460z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88\n\t\tc66,63,96,127,103,226c5,66,3,78-23,131c-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6434c142-75,180-197,103-332\n\t\tc-41-73-94-105-181-110c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42C5172,6460,5201,6453,5236,6434z M5152,6268\n\t\tc-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332\n\t\tc-1-78,1-90,29-134c61-98,164-148,305-148c128,0,189,39,246,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379\n\t\tc56-16,120-84,142-153c17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106\n\t\tc23,74,38,89,141,136C4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9\n\t\tc17,14,19,70,2,87C4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-32c-209-40-323-52-487-51\n\t\tc-176,0-202,6-212,46c-11,41-74,103-105,103c-30,0-30-20,3-70c40-61,46-104,23-166c-23-60-22-92,2-107c28-18,66,16,84,75l17,53h277\n\t\tc260,1,283,2,396,27c66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142\n\t\tC5323,5857,5291,5888,5237,5832z M4847,4634c-16-5-17-12-12-47c11-74,12-74,66-79c29-3,62-14,77-25c56-43,18-141-57-146\n\t\tc-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38h39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100\n\t\tC4893,4637,4857,4636,4847,4634z M4640,4523c0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60\n\t\th-60V4523z M4932,4068c-18-18-15-43,8-63c17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040\n\t\tc-21-40,12-80,54-64c22,8,31,50,16,69C4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM1\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,34-9c12-14,30-28,38-31c12-5,18-38,28-144c7-77,17-170,22-209c6-38,18-158,29-265l18-195l31-27\n\t\tc17-16,39-28,47-28c12,0,15-6,10-22c-4-13-9-77-13-143c-5-108-3-126,17-179c45-117,119-162,190-114c37,25,101,132,121,203\n\t\tc6,21,27,72,46,112s37,90,40,112c5,36,9,40,37,43c30,3,31,5,34,58c2,30-2,102-8,160c-15,137-59,469-65,496c-4,20,1,22,63,28\n\t\tc37,4,89,9,115,13l49,6l-4,121l-3,121l80,3c44,2,84,8,89,13c6,5,36,9,68,9c36,0,58,4,58,11c0,16,162,8,167-8c11-32,52-79,77-88\n\t\tc25-8,31-6,51,19l23,29l17-27c22-33,74-37,82-6c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105\n\t\tc8,0,19,10,26,22c14,27,9,95-41,496c-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195\n\t\tc-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142\n\t\tc-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80\n\t\tc-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83\n\t\tc40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128c6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17\n\t\tc29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28\n\t\tl20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111l95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19\n\t\tc-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103c8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1\n\t\tc-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072c3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17\n\t\tc-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765c162-38,265-132,307-280c24-80,16-270-14-365\n\t\tc-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36c-163,77-247,234-230,427c18,191,100,332,231,395\n\t\tC4730,4776,4861,4790,4968,4765z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93c-7,15-18,27-24,27c-18,0-38-55-32-86\n\t\tc7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70c0,20,5,21,114,21h114L5834,3629z\n\t\t M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10c-10-34-22-63-26-66c-12-7-30,96-23,132l6,34\n\t\th88h88L4173,3598z M4245,3460l2-53l-23,44c-31,58-31,81-2,70C4240,3515,4244,3505,4245,3460z M5092,6557c-19-6-55-30-82-52\n\t\tc-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM2\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,35-11c14-15,30-27,36-27c18,0,11,46-16,94c-14,25-24,52-22,61c3,13,7,13,33-1c27-15,81-16,499-11\n\t\tc320,3,471,8,479,16c6,6,37,11,69,11c36,0,58,4,58,11c0,16,162,8,167-8c11-32,52-79,77-88c25-8,31-6,51,19l23,29l17-27\n\t\tc22-33,74-37,82-6c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105c8,0,19,10,26,22c14,27,9,95-41,496\n\t\tc-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195c-19,21-19,22,21,85c54,87,72,158,78,321\n\t\tc3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130\n\t\ts-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132\n\t\ts-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765\n\t\tc162-38,265-132,307-280c24-80,16-270-14-365c-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c18,191,100,332,231,395C4730,4776,4861,4790,4968,4765z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93\n\t\tc-7,15-18,27-24,27c-18,0-38-55-32-86c7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70\n\t\tc0,20,5,21,114,21h114L5834,3629z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10\n\t\tc-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290\n\t\tc-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z M4242,3465c0-16,2-22,5-12c2,9,2,23,0,30C4244,3489,4242,3482,4242,3465z\"/>\n\t<path id=\"HM3\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,35-11c14-15,30-27,36-27c18,0,11,46-16,94c-14,25-24,52-22,61c3,13,7,13,33-1c27-15,81-16,499-11\n\t\tc320,3,471,8,479,16c6,6,37,11,69,11c35,0,58,4,58,11s30,10,88,7c93-3,147,11,157,41c12,38-21,553-38,591c-20,44-48,774-32,837\n\t\tc3,12,21,31,40,43c51,31,69,71,61,133c-8,55-19,81-48,113c-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133\n\t\tc16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171\n\t\tc-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136\n\t\tc-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765\n\t\tc162-38,265-132,307-280c24-80,16-270-14-365c-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c18,191,100,332,231,395C4730,4776,4861,4790,4968,4765z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55\n\t\tc-7-31-7-31-29,33c-29,86-46,88-70,10c-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M5092,6557c-19-6-55-30-82-52\n\t\tc-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z M4242,3465c0-16,2-22,5-12c2,9,2,23,0,30C4244,3489,4242,3482,4242,3465z\"/>\n\t<path id=\"HM4\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-32-44-38-96-18-156c15-44,23-52,71-75l53-25l3-165c1-91-4-262-13-380c-15-216-20-708-8-809\n\t\tc4-40,11-55,24-58c10-3,26-17,35-31l16-25l475,5c326,4,478,9,486,17c6,6,37,11,69,11c35,0,58,4,58,11s30,10,88,7\n\t\tc93-3,147,11,157,41c12,38-21,553-38,591c-20,44-48,774-32,837c3,12,21,31,40,43c51,31,69,71,61,133c-8,55-19,81-48,113\n\t\tc-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142\n\t\tc-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80\n\t\tc-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83\n\t\tc40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128c6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17\n\t\tc29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28\n\t\tl20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111l95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19\n\t\tc-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103c8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1\n\t\tc-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072c3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17\n\t\tc-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765c162-38,265-132,307-280c24-80,16-270-14-365\n\t\tc-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36c-163,77-247,234-230,427c18,191,100,332,231,395\n\t\tC4730,4776,4861,4790,4968,4765z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88\n\t\tc67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141\n\t\tc28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42\n\t\tC5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50\n\t\tC5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134c61-98,162-147,304-148\n\t\tc129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153c17-53,17-59,1-108\n\t\tc-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM5\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-22-29c-34-46-41-103-19-152c21-46,47-61,241-133l113-42l380,1l380,1l150,51c82,28,151,56,153,62\n\t\tc2,5,9,10,16,10s18,11,26,24c7,14,23,27,36,30c68,17,69,159,2,232c-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133\n\t\tc16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171\n\t\tc-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136\n\t\tc-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M5092,6557\n\t\tc-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130\n\t\tc-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271\n\t\tc-32-21-58-28-109-31c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268\n\t\tc-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332\n\t\tc-1-78,1-90,29-134c61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379\n\t\tc56-16,120-84,142-153c17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106\n\t\tc23,74,38,89,141,136C4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9\n\t\tc17,14,19,70,2,87C4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50\n\t\tc-176,0-202,6-212,46c-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277\n\t\tc260,1,283,2,396,27c66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142\n\t\tC5323,5857,5291,5888,5237,5832z\"/>\n\t<path id=\"HM6\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-45,9-95c0-49,1-89,3-89c24,0,231,31,239,36\n\t\tc6,4,67,10,137,13l126,6l1,130c1,72-2,137-7,146c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\"/>\n\t<path id=\"HM8\" d=\"M1210,8198c0-183,4-747,10-1253c12-1008,27-3098,32-4371l3-812l-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81\n\t\tc-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7l9-37c22-83,31-175,31-329c0-176,7-206,49-222\n\t\tc50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7c256,2,837,4,1291,5l826,3l149,125\n\t\tc82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225c0,59,1,61,46,103l47,42l-7,178\n\t\tc-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0c-998,14-993,14-1502,6l-437-7l-28,38\n\t\tc-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850c-22,1092-28,1606-22,2085c3,272,1,531-4,575\n\t\tc-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98c119,103,235,226,235,249v23H2260H1210V8198z\n\t\t M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M0,0\"/>\n</g>\n</svg>\n"
+
+/***/ }),
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -95828,12 +97167,6 @@
 	};
 	
 	exports.default = Contact;
-
-/***/ }),
-/* 271 */
-/***/ (function(module, exports) {
-
-	module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 826 978\" style=\"enable-background:new 0 0 826 978;\" xml:space=\"preserve\">\n<g transform=\"translate(0.000000,978.000000) scale(0.100000,-0.100000)\">\n\t<path id=\"HM0\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1009,27-3101,32-4371l3-812\n\t\tl-54-5c-64-7-95-27-136-89c-25-37-40-48-85-63c-259-86-597-219-629-248c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c21-77,31-182,31-334c0-170,7-201,49-217c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c39-15,44-20,45-48c0-17,8-166,18-331c12-209,14-302,7-307c-6-4-21-8-33-8\n\t\ts-35-12-52-26c-26-22-31-33-31-71c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100\n\t\tc-15-3-70-27-122-53c-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67\n\t\tc22,0,26-13,57-181c24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-143c14-35,13-37-20-85c-35-49-72-152-128-355\n\t\tc-24-91-29-127-29-226c0-64-5-253-11-419c-7-165-9-313-5-327c5-19,13-26,30-26c23,0,25-5,31-67c13-127,33-173,77-173\n\t\tc12,0,30,8,41,17c18,17,20,17,39-10c23-31,62-36,77-9c10,16,13,15,34-9c12-14,30-28,38-31c12-5,18-38,28-144c7-77,17-170,22-209\n\t\tc6-38,18-158,29-265l18-195l31-27c17-16,39-28,47-28c12,0,15-6,10-22c-4-13-9-77-13-143c-5-108-3-126,17-179c29-75,74-125,120-132\n\t\tc55-9,97,26,147,121c23,44,42,86,43,94c0,8,18,54,41,103s43,107,46,128c5,35,9,39,37,42c30,3,31,5,34,58c2,30-2,102-8,160\n\t\tc-15,138-59,469-65,496c-4,20,0,22,68,28c39,4,86,9,103,12l31,6l7-128c4-71,14-160,21-199c12-61,22-161,41-392c6-62,6-63,42-73\n\t\tc36-9,37-10,38-63c2-84,89-229,211-353c94-95,208-139,274-104c25,14,49,62,49,98c0,53-48,196-103,310l-54,111l33,11\n\t\tc19,6,36,15,39,20c3,4-4,66-15,136c-10,71-26,217-35,324c-8,107-20,242-26,300s-13,132-16,164l-6,60l28-22c37-29,59-28,83,5l19,26\n\t\tl18-26c22-34,74-38,82-7c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105c8,0,19,10,26,22c14,27,9,95-41,496\n\t\tc-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195c-19,21-19,22,21,85c54,87,72,158,78,321\n\t\tc3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-18,104-102,143c-75,35-83,46-94,134c-5,46-66,255-111,379\n\t\tc-22,62-128,217-175,258c-66,56-296,146-373,146c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68\n\t\tc-9,18-16,56-16,84c0,66-18,92-69,101c-38,6-40,9-45,48c-11,77-36,463-36,538v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33\n\t\tl71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144\n\t\tC5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265\n\t\tc-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13\n\t\tc-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30\n\t\tc-25-21-31-23-38-11c-5,9-6,22-3,30c3,9,1,12-4,9c-11-7-14,18-3,28C4987,9284,5000,9281,5016,9266z M3880,9253c-14-9-29-23-33-30\n\t\ts-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40s-33-6-72-6c-52,0-76,4-84,15c-17,20-6,39,30,55C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127\n\t\tl6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-73v-73l-69,22c-72,22-81,31-81,87\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4898,8876c18-16,22-30,22-83c0-35-3-63-6-63\n\t\tc-13,0-102,71-108,86c-3,9-6,42-6,75v60l38-27C4858,8908,4885,8887,4898,8876z M4687,8846c31-20,33-24,33-84c0-35-3-62-7-60\n\t\tc-5,2-27,12-50,22l-41,18l-4,69c-3,65-2,68,17,63C4646,8871,4670,8858,4687,8846z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-51,13c-28,6-28,7-22,57\n\t\tc4,28,12,53,17,55c6,2,4,7-3,12c-12,8-11,11,1,19c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704\n\t\tc35-21,71-77,70-111c-1-35-22-96-35-100c-5-2-18,10-27,27c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-15-50,20l-41,39l7,60l6,59l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4826,8478\n\t\tc8-16,12-33,9-38c-8-13-85-13-85,0c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8524,4805,8518,4826,8478z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M4000,8399c0-12-12-21-37-28c-20-6-38-9-40-7\n\t\ts1,15,7,30c5,15,10,39,10,54v26l30-29C3987,8429,4000,8408,4000,8399z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c3-48,0-71-15-98c-17-33-85-95-94-86\n\t\tc-2,2-7,41-10,87l-5,84l39,22c22,13,46,30,53,38C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79\n\t\tl2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14\n\t\tc0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47\n\t\tC4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z\n\t\t M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35\n\t\tc-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3\n\t\tC4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37\n\t\tc10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4695,7168\n\t\tc90-2,105-7,105-40c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,25-12,36c-7,15-4,17,11,12C4596,7173,4646,7170,4695,7168z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,24,83\n\t\tc44,65,44,65,97,69c29,3,56,9,61,14s11,61,15,124c6,109,39,315,72,443c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-75,35l-24,22l43,13\n\t\tc23,7,62,23,87,36c25,12,50,22,55,20C5411,5205,5425,5189,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15\n\t\tc-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4525,5106l70-11l2-34c1-18,6-38,12-44\n\t\tc24-24,8-29-74-22c-113,9-162,34-179,92c-9,29,19,45,64,37C4439,5120,4487,5112,4525,5106z M5181,5103c8-9,31-28,51-43l37-27\n\t\tl-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,5,30,11,68,13c37,2,83,4,103,5C5155,5119,5172,5114,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4961,4766\n\t\tc160-34,260-120,309-267c20-57,22-78,17-189c-8-198-60-320-163-389c-70-46-110-53-273-49c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c23,241,136,386,338,430C4824,4783,4880,4783,4961,4766z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93\n\t\tc-7,15-18,27-24,27c-18,0-38-55-32-86c7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70\n\t\tc0,20,5,21,114,21h114L5834,3629z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10\n\t\tc-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M4245,3460l2-53l-23,44c-31,58-31,81-2,70\n\t\tC4240,3515,4244,3505,4245,3460z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88\n\t\tc66,63,96,127,103,226c5,66,3,78-23,131c-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6434c142-75,180-197,103-332\n\t\tc-41-73-94-105-181-110c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42C5172,6460,5201,6453,5236,6434z M5152,6268\n\t\tc-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332\n\t\tc-1-78,1-90,29-134c61-98,164-148,305-148c128,0,189,39,246,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379\n\t\tc56-16,120-84,142-153c17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106\n\t\tc23,74,38,89,141,136C4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9\n\t\tc17,14,19,70,2,87C4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-32c-209-40-323-52-487-51\n\t\tc-176,0-202,6-212,46c-11,41-74,103-105,103c-30,0-30-20,3-70c40-61,46-104,23-166c-23-60-22-92,2-107c28-18,66,16,84,75l17,53h277\n\t\tc260,1,283,2,396,27c66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142\n\t\tC5323,5857,5291,5888,5237,5832z M4847,4634c-16-5-17-12-12-47c11-74,12-74,66-79c29-3,62-14,77-25c56-43,18-141-57-146\n\t\tc-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38h39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100\n\t\tC4893,4637,4857,4636,4847,4634z M4640,4523c0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60\n\t\th-60V4523z M4932,4068c-18-18-15-43,8-63c17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040\n\t\tc-21-40,12-80,54-64c22,8,31,50,16,69C4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM1\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,34-9c12-14,30-28,38-31c12-5,18-38,28-144c7-77,17-170,22-209c6-38,18-158,29-265l18-195l31-27\n\t\tc17-16,39-28,47-28c12,0,15-6,10-22c-4-13-9-77-13-143c-5-108-3-126,17-179c45-117,119-162,190-114c37,25,101,132,121,203\n\t\tc6,21,27,72,46,112s37,90,40,112c5,36,9,40,37,43c30,3,31,5,34,58c2,30-2,102-8,160c-15,137-59,469-65,496c-4,20,1,22,63,28\n\t\tc37,4,89,9,115,13l49,6l-4,121l-3,121l80,3c44,2,84,8,89,13c6,5,36,9,68,9c36,0,58,4,58,11c0,16,162,8,167-8c11-32,52-79,77-88\n\t\tc25-8,31-6,51,19l23,29l17-27c22-33,74-37,82-6c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105\n\t\tc8,0,19,10,26,22c14,27,9,95-41,496c-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195\n\t\tc-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142\n\t\tc-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80\n\t\tc-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83\n\t\tc40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128c6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17\n\t\tc29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28\n\t\tl20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111l95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19\n\t\tc-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103c8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1\n\t\tc-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072c3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17\n\t\tc-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765c162-38,265-132,307-280c24-80,16-270-14-365\n\t\tc-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36c-163,77-247,234-230,427c18,191,100,332,231,395\n\t\tC4730,4776,4861,4790,4968,4765z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93c-7,15-18,27-24,27c-18,0-38-55-32-86\n\t\tc7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70c0,20,5,21,114,21h114L5834,3629z\n\t\t M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10c-10-34-22-63-26-66c-12-7-30,96-23,132l6,34\n\t\th88h88L4173,3598z M4245,3460l2-53l-23,44c-31,58-31,81-2,70C4240,3515,4244,3505,4245,3460z M5092,6557c-19-6-55-30-82-52\n\t\tc-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM2\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,35-11c14-15,30-27,36-27c18,0,11,46-16,94c-14,25-24,52-22,61c3,13,7,13,33-1c27-15,81-16,499-11\n\t\tc320,3,471,8,479,16c6,6,37,11,69,11c36,0,58,4,58,11c0,16,162,8,167-8c11-32,52-79,77-88c25-8,31-6,51,19l23,29l17-27\n\t\tc22-33,74-37,82-6c7,25,9,25,40,0c30-23,51-25,77-5c17,13,19,24,13,120c-5,86-3,105,8,105c8,0,19,10,26,22c14,27,9,95-41,496\n\t\tc-37,296-42,321-86,450c-48,142-139,343-181,399c-23,31-23,34-7,64c26,52,9,144-38,195c-19,21-19,22,21,85c54,87,72,158,78,321\n\t\tc3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130\n\t\ts-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132\n\t\ts-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765\n\t\tc162-38,265-132,307-280c24-80,16-270-14-365c-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c18,191,100,332,231,395C4730,4776,4861,4790,4968,4765z M5834,3629c8-44,8-129-1-129c-10,0-47,55-64,93\n\t\tc-7,15-18,27-24,27c-18,0-38-55-32-86c7-36-11-15-28,32c-25,75-63,71-72-7c-8-73-13-78-35-35c-11,22-16,41-10,45c14,10,32,48,32,70\n\t\tc0,20,5,21,114,21h114L5834,3629z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55c-7-31-7-31-29,33c-29,86-46,88-70,10\n\t\tc-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290\n\t\tc-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z M4242,3465c0-16,2-22,5-12c2,9,2,23,0,30C4244,3489,4242,3482,4242,3465z\"/>\n\t<path id=\"HM3\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-30-41-39-97-22-142c13-34,13-38-21-88c-22-32-50-99-75-179c-74-239-81-272-81-405\n\t\tc0-67-5-255-11-418c-7-163-9-309-5-323c5-19,13-26,30-26c22,0,24-5,31-67c12-127,33-173,77-173c12,0,30,8,41,17c18,17,20,17,39-10\n\t\tc23-31,62-36,77-9c10,16,13,15,35-11c14-15,30-27,36-27c18,0,11,46-16,94c-14,25-24,52-22,61c3,13,7,13,33-1c27-15,81-16,499-11\n\t\tc320,3,471,8,479,16c6,6,37,11,69,11c35,0,58,4,58,11s30,10,88,7c93-3,147,11,157,41c12,38-21,553-38,591c-20,44-48,774-32,837\n\t\tc3,12,21,31,40,43c51,31,69,71,61,133c-8,55-19,81-48,113c-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133\n\t\tc16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171\n\t\tc-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136\n\t\tc-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765\n\t\tc162-38,265-132,307-280c24-80,16-270-14-365c-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36\n\t\tc-163,77-247,234-230,427c18,191,100,332,231,395C4730,4776,4861,4790,4968,4765z M4173,3598c3-22-1-40-14-56c-10-13-21-37-25-55\n\t\tc-7-31-7-31-29,33c-29,86-46,88-70,10c-10-34-22-63-26-66c-12-7-30,96-23,132l6,34h88h88L4173,3598z M5092,6557c-19-6-55-30-82-52\n\t\tc-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198\n\t\tC5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34\n\t\tc-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50\n\t\ts45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134\n\t\tc61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153\n\t\tc17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z M4242,3465c0-16,2-22,5-12c2,9,2,23,0,30C4244,3489,4242,3482,4242,3465z\"/>\n\t<path id=\"HM4\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-23-30c-32-44-38-96-18-156c15-44,23-52,71-75l53-25l3-165c1-91-4-262-13-380c-15-216-20-708-8-809\n\t\tc4-40,11-55,24-58c10-3,26-17,35-31l16-25l475,5c326,4,478,9,486,17c6,6,37,11,69,11c35,0,58,4,58,11s30,10,88,7\n\t\tc93-3,147,11,157,41c12,38-21,553-38,591c-20,44-48,774-32,837c3,12,21,31,40,43c51,31,69,71,61,133c-8,55-19,81-48,113\n\t\tc-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133c16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142\n\t\tc-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171c-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80\n\t\tc-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\n\t\t M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450c18-136,32-155,131-182c22-6,50-21,61-33\n\t\tc19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383c-66-60-204-129-322-161c-77-21-106-23-315-23\n\t\tc-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168c-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83\n\t\tc40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128c6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36\n\t\tC5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59c0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55\n\t\tC5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34c-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17\n\t\tc29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132c-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28\n\t\tl20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111l95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19\n\t\tc-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103c8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1\n\t\tc-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072c3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17\n\t\tc-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M4968,4765c162-38,265-132,307-280c24-80,16-270-14-365\n\t\tc-39-122-124-214-225-241c-23-6-101-9-185-7c-141,3-148,4-217,36c-163,77-247,234-230,427c18,191,100,332,231,395\n\t\tC4730,4776,4861,4790,4968,4765z M5092,6557c-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88\n\t\tc67,63,97,130,104,227c4,65,2,79-24,130c-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141\n\t\tc28-85-23-220-103-271c-32-21-58-28-109-31c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42\n\t\tC5171,6460,5201,6453,5236,6435z M5152,6268c-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50\n\t\tC5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332c-1-78,1-90,29-134c61-98,162-147,304-148\n\t\tc129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379c56-16,120-84,142-153c17-53,17-59,1-108\n\t\tc-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106c23,74,38,89,141,136\n\t\tC4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9c17,14,19,70,2,87\n\t\tC4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50c-176,0-202,6-212,46\n\t\tc-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277c260,1,283,2,396,27\n\t\tc66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142C5323,5857,5291,5888,5237,5832\n\t\tz M4847,4634c-16-5-18-12-13-42c16-93,12-87,66-87c68,0,105-29,104-80c-2-47-37-85-83-88c-30-2-32-4-27-32c3-16,8-58,12-92l7-63h38\n\t\th39v45c0,42,2,46,39,64c100,52,127,153,72,277c-26,58-90,95-174,100C4893,4637,4857,4636,4847,4634z M4640,4523\n\t\tc0-108,17-301,31-365c9-41,15-48,34-48c14,0,26,7,29,18c15,50,26,191,26,328v154h-60h-60V4523z M4932,4068c-18-18-15-43,8-63\n\t\tc17-15,24-16,45-7c25,11,31,34,19,66C4997,4083,4949,4085,4932,4068z M4690,4040c-21-40,12-80,54-64c22,8,31,50,16,69\n\t\tC4742,4067,4703,4064,4690,4040z\"/>\n\t<path id=\"HM5\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-47,9-99c0-93,0-93-27-100c-15-3-70-27-122-53\n\t\tc-115-57-209-144-260-241c-50-95-121-428-121-567v-73l-38-11c-119-31-202-187-142-263c20-26,113-67,150-67c22,0,26-13,57-181\n\t\tc24-126,70-229,125-281l40-37l-22-29c-34-46-41-103-19-152c21-46,47-61,241-133l113-42l380,1l380,1l150,51c82,28,151,56,153,62\n\t\tc2,5,9,10,16,10s18,11,26,24c7,14,23,27,36,30c68,17,69,159,2,232c-19,21-19,22,21,85c54,87,72,158,78,321c3,76,9,135,13,133\n\t\tc16-10,107,26,132,52c40,43,50,70,49,133c0,78-17,101-101,142c-76,36-84,48-94,133c-3,28-17,86-31,130s-39,121-54,171\n\t\tc-35,112-108,239-181,314c-43,44-73,64-135,90c-136,56-213,80-259,80c-26,0-46,5-48,13c-2,6-3,66-2,132s-2,127-7,136\n\t\tc-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102c-37,6-39,9-45,48c-10,76-35,462-35,537v74h40\n\t\tc55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425c-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2\n\t\tl32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73\n\t\tC5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22C4165,9279,4165,9279,4146,9265z M4484,9261\n\t\tc-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6c0,12,24,18,70,20l35,1L4484,9261z M5016,9266\n\t\tc7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z M3880,9253c-14-9-29-23-33-30s-16-13-27-13\n\t\tc-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17c-11,16,6,29,38,29h31L3880,9253z M4037,9211\n\t\tc13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53C3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3\n\t\tl-84,3l-11,52c-12,60-2,82,44,103C4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18\n\t\tc-53,13-56,15-80,66c-13,29-22,55-19,58C4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14\n\t\tc-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198z M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z\n\t\t M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26c-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z\n\t\t M4847,9114c47-23,60-47,69-124l7-64l-52,37c-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114\n\t\tz M4674,9038c19-13,37-32,40-43c7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52\n\t\tc-3,17-9,39-12,49c-5,17-1,18,26,13C4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17\n\t\tc-61,18-70,29-70,84C4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20\n\t\tc3,5-4,6-15,3c-14-4-20,1-24,18c-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65\n\t\tc0-35-3-64-6-64c-13,0-102,71-108,86c-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85\n\t\tc0-35-3-63-7-61c-5,2-27,12-50,22l-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81\n\t\tc-9,4-35,11-58,17l-43,10v74C4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42\n\t\tc4,20,7,44,6,54c0,9,6,17,12,17c7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z\n\t\t M4849,8704c62-37,83-101,57-173c-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z\n\t\t M4702,8636c20-22,19-87-2-125c-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635\n\t\tc6-5-18-108-28-125c-8-12-14-11-47,7c-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584\n\t\tc35-17,34-31-2-113l-19-44l-32,44c-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481\n\t\tc7-14,11-32,9-38c-6-15-83-18-83-3c0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466\n\t\tc0-25-21-36-72-36c-39,0-58,10-58,31c0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475\n\t\tc-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46\n\t\tl31-18C4208,8463,4225,8449,4227,8442z M3896,8464c-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z\n\t\t M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10C4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8\n\t\ts3,26,9,54c11,52,11,52,31,35C3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11\n\t\tc22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15C4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28\n\t\tc-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37C4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52\n\t\tc-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68C4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60\n\t\tc-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20C4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40\n\t\tc-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570c10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105\n\t\tL4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30C4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35\n\t\tc17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59C4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22\n\t\tc-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35\n\t\tc-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10C4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65\n\t\tc-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14C4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26\n\t\tc-11,16-10,19,14,30c15,7,28,12,29,13C4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60\n\t\tC4514,7190,4520,7180,4524,7168z M4692,7169c94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36\n\t\tc-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z M5127,6958c40-14,93-38,118-52c59-35,136-113,170-173c44-79,125-337,140-450\n\t\tc18-136,32-155,131-182c22-6,50-21,61-33c19-20,20-27,10-58c-14-41-62-69-119-70c-62,0-71-25-66-178c8-209-17-289-120-383\n\t\tc-66-60-204-129-322-161c-77-21-106-23-315-23c-302,0-403,18-548,93c-72,37-152,114-180,175c-9,19-33,95-52,168\n\t\tc-55,209-50,200-142,206c-47,3-74,10-86,23c-18,17-17,19,25,83c40,62,46,67,80,67c20,0,48,4,61,9c23,9,24,15,31,128\n\t\tc6,112,40,319,72,446c39,155,196,293,404,357c126,39,124,38,365,36C5042,6984,5059,6982,5127,6958z M5506,5252c12-8,34-46,34-59\n\t\tc0-5-6-17-13-27c-12-16-16-13-44,33c-21,33-27,51-20,55C5481,5261,5494,5260,5506,5252z M5438,5170c12-18,22-39,22-46s-20-22-45-34\n\t\tc-41-20-50-21-96-10c-28,7-61,22-74,34l-24,23l52,17c29,9,68,25,87,35C5404,5212,5410,5211,5438,5170z M4311,5132\n\t\tc-10-20-3-80,10-88c20-12,7-22-19-15c-45,13-85,37-114,68l-27,28l20,32l20,31l59-20C4310,5152,4318,5145,4311,5132z M4500,5111\n\t\tl95-17l2-33c1-18,6-38,12-44s11-15,11-20c0-14-165,2-199,19c-56,28-86,85-54,103C4389,5132,4385,5132,4500,5111z M5181,5103\n\t\tc8-9,31-28,51-43l37-27l-56-12c-70-14-151-14-189-1c-26,9-64,57-64,80c0,8,36,12,166,18C5154,5119,5172,5115,5181,5103z M4915,5072\n\t\tc3-15,17-40,31-55l25-27h-122c-96,0-127,4-150,17c-30,18-55,65-44,82c4,7,53,11,130,11h123L4915,5072z M5092,6557\n\t\tc-19-6-55-30-82-52c-84-70-125-158-137-290c-15-182,88-301,272-313c90-6,142,15,219,88c67,63,97,130,104,227c4,65,2,79-24,130\n\t\tc-33,67-132,170-189,198C5205,6568,5135,6574,5092,6557z M5236,6435c59-31,119-93,134-141c28-85-23-220-103-271\n\t\tc-32-21-58-28-109-31c-83-5-108,1-148,34c-103,87-90,261,30,392c35,39,41,42,92,42C5171,6460,5201,6453,5236,6435z M5152,6268\n\t\tc-7-7-12-24-12-38c0-31,17-50,45-50s45,19,45,50s-17,50-45,50C5173,6280,5159,6275,5152,6268z M4395,6481c-168-60-238-157-239-332\n\t\tc-1-78,1-90,29-134c61-98,162-147,304-148c129,0,190,39,247,158c41,83,45,163,15,250C4686,6460,4552,6538,4395,6481z M4524,6379\n\t\tc56-16,120-84,142-153c17-53,17-59,1-108c-20-63-64-119-111-142c-21-10-60-16-103-16c-120,0-206,59-233,162c-9,31-7,51,9,106\n\t\tc23,74,38,89,141,136C4430,6392,4465,6396,4524,6379z M4372,6211c-9-5-12-24-10-52c3-40,6-44,31-47c16-2,35,2,43,9\n\t\tc17,14,19,70,2,87C4424,6222,4391,6224,4372,6211z M5237,5832c-15-15-29-41-33-58l-6-30l-171-33c-210-39-324-51-487-50\n\t\tc-176,0-202,6-212,46c-11,41-74,103-105,103c-30,0-30-20,3-70c40-60,46-104,23-164c-24-65-24-93,2-106c32-18,65,10,84,72l17,53h277\n\t\tc260,1,283,2,396,27c66,15,132,31,146,36c24,10,27,7,43-28c31-71,109-113,144-78c20,20,14,35-33,88c-56,63-61,84-35,142\n\t\tC5323,5857,5291,5888,5237,5832z\"/>\n\t<path id=\"HM6\" d=\"M4959,9363c-35-54-64-99-65-101s-19,4-39,12c-21,9-63,16-95,16c-46,0-71,7-116,31c-54,28-65,31-131,27\n\t\tc-50-4-88-13-126-32l-54-26l-49,22c-37,16-66,21-119,19c-113-3-136-2-207,5c-37,3-79,3-93,0c-52-13-125-97-125-144\n\t\tc0-17-22-19-427-30c-236-7-734-12-1108-12c-668,0-760-3-962-36l-33-5v-622c0-342,4-1036,10-1542c12-1008,27-3098,32-4371l3-812\n\t\tl-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81c-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7\n\t\tl9-37c22-83,31-175,31-329c0-176,7-206,49-222c50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7\n\t\tc256,2,837,4,1291,5l826,3l149,125c82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225\n\t\tc0,59,1,61,46,103l47,42l-7,178c-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0\n\t\tc-998,14-993,14-1502,6l-437-7l-28,38c-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850\n\t\tc-22,1092-28,1606-22,2085c3,272,1,531-4,575c-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98\n\t\tc28,24,93,86,146,138l96,94l238-2l238-3l12-50c14-61,25-82,60-115c23-21,38-25,103-28c68-3,80-1,106,19c24,19,42,23,97,24\n\t\tc74,0,99,15,140,82l20,33l45-35c25-18,65-41,90-51c33-12,44-22,44-38c0-25,28-530,33-598c4-47,4-48-30-54c-19-4-48-18-64-31\n\t\tc-24-21-29-32-29-70c0-24,5-54,12-66c14-27,14-138,0-188c-10-38-6-85,9-95c5-3,9-45,9-95c0-49,1-89,3-89c24,0,231,31,239,36\n\t\tc6,4,67,10,137,13l126,6l1,130c1,72-2,137-7,146c-4,9-3,31,3,51c9,29,7,42-6,68c-9,18-16,56-16,84c0,66-19,94-70,102\n\t\tc-37,6-39,9-45,48c-10,76-35,462-35,537v74h40c55,1,118,47,150,109l25,48l620-4l620-3l72,33l71,34l7,136c8,146,2,395-10,425\n\t\tc-4,10-19,23-32,28c-55,21-293,31-758,32l-490,2l32,49c25,36,33,59,33,92c0,86-43,144-106,144C5025,9460,5017,9452,4959,9363z\n\t\t M5088,9388c18-18,16-98-2-98c-16,0-21,13-32,73C5047,9402,5063,9413,5088,9388z M4146,9265c-22-17-36-19-36-7c0,14,12,22,34,22\n\t\tC4165,9279,4165,9279,4146,9265z M4484,9261c-18-11-45-21-60-23c-16-1-33-7-37-13c-5-6-6-1-4,10s9,19,15,18c7-2,12,1,12,6\n\t\tc0,12,24,18,70,20l35,1L4484,9261z M5016,9266c7-8,19-16,26-19c9-3,3-14-17-30l-30-26l-13,31C4961,9271,4983,9299,5016,9266z\n\t\t M3880,9253c-14-9-29-23-33-30s-16-13-27-13c-13,0-17,5-13,20c3,11,9,17,14,14s6-10,3-16c-4-7-2-8,5-4c6,4,9,12,6,17\n\t\tc-11,16,6,29,38,29h31L3880,9253z M4037,9211c13-19,23-37,23-40c0-10-144,0-157,11c-18,14-4,37,31,53\n\t\tC3982,9256,4011,9250,4037,9211z M4261,9240c24-13,57-77,65-127l6-38l-84,3l-84,3l-11,52c-12,60-2,82,44,103\n\t\tC4233,9252,4237,9252,4261,9240z M4637,9221c47-40,87-142,49-128c-7,3-38,11-69,18c-53,13-56,15-80,66c-13,29-22,55-19,58\n\t\tC4531,9248,4616,9238,4637,9221z M4831,9198c20-27,20-31,5-25c-10,4-30,10-44,14c-48,11-57,43-13,43C4801,9230,4815,9222,4831,9198\n\t\tz M4962,9156c-6-10-17,8-27,44c-6,23-5,22,13-5C4959,9179,4965,9161,4962,9156z M4012,9125c51-7,64-19,69-70c3-23,0-29-11-26\n\t\tc-8,2-32,6-53,8c-34,5-41,12-63,55c-22,44-23,49-7,45C3957,9134,3986,9129,4012,9125z M4847,9114c47-23,60-47,69-124l7-64l-52,37\n\t\tc-28,20-55,37-61,37c-14,0-27,30-34,83c-7,44-6,47,14,47C4802,9130,4828,9123,4847,9114z M4674,9038c19-13,37-32,40-43\n\t\tc7-25,8-105,1-105c-2,0-19,9-37,20s-41,20-50,20c-10,0-20,10-22,23c-3,12-7,36-11,52c-3,17-9,39-12,49c-5,17-1,18,26,13\n\t\tC4625,9063,4655,9050,4674,9038z M4289,9034l31-6v-69c0-41-4-69-10-69s-37,8-70,17c-61,18-70,29-70,84\n\t\tC4170,9037,4206,9050,4289,9034z M4051,8988c26-9,41-20,44-33c8-42,12-115,6-115c-20,1-50,13-46,20c3,5-4,6-15,3c-14-4-20,1-24,18\n\t\tc-3,13-7,38-11,54c-3,17-8,38-11,48C3988,9003,3997,9004,4051,8988z M4873,8896l47-37v-65c0-35-3-64-6-64c-13,0-102,71-108,86\n\t\tc-3,9-6,43-6,76c0,47,3,58,13,51C4819,8938,4846,8917,4873,8896z M4688,8848c31-19,32-22,32-85c0-35-3-63-7-61c-5,2-27,12-50,22\n\t\tl-41,18l-4,69C4615,8888,4618,8890,4688,8848z M4258,8844c50-25,52-27,52-67c0-63-10-89-29-81c-9,4-35,11-58,17l-43,10v74\n\t\tC4180,8881,4182,8882,4258,8844z M4108,8705c3-77,3-77-20-71c-13,4-36,9-52,13c-26,6-28,8-21,42c4,20,7,44,6,54c0,9,6,17,12,17\n\t\tc7,0,6,4-3,10c-13,9-13,11,0,20c10,6,11,10,3,10c-7,0-13,4-13,10c0,5,19,1,43-9l42-18L4108,8705z M4849,8704c62-37,83-101,57-173\n\t\tc-16-45-28-48-49-11c-10,17-29,37-42,46c-24,16-25,18-9,122C4812,8725,4813,8725,4849,8704z M4702,8636c20-22,19-87-2-125\n\t\tc-9-17-13-16-50,21c-40,41-41,41-34,99l6,58l31-16C4670,8665,4692,8648,4702,8636z M4288,8635c6-5-18-108-28-125c-8-12-14-11-47,7\n\t\tc-25,15-38,29-37,42c0,12,1,43,2,71l2,50l53-21C4261,8648,4287,8637,4288,8635z M4071,8584c35-17,34-31-2-113l-19-44l-32,44\n\t\tc-17,24-35,45-39,47s-4,13,1,25c4,12,11,30,14,40C4001,8604,4031,8605,4071,8584z M4824,8481c7-14,11-32,9-38c-6-15-83-18-83-3\n\t\tc0,6,5,10,11,10c5,0,8,4,4,9c-3,5,0,21,6,34C4785,8523,4805,8519,4824,8481z M4630,8466c0-25-21-36-72-36c-39,0-58,10-58,31\n\t\tc0,15,7,19,39,19c26,0,41,5,45,15C4593,8519,4630,8495,4630,8466z M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70\n\t\tC2214,8490,2221,8488,2210,8475z M4227,8442c7-17-5-28-39-36c-27-6-28-5-28,39v46l31-18C4208,8463,4225,8449,4227,8442z M3896,8464\n\t\tc-3-9-6-23-7-32c0-14-2-13-9,3c-13,31-11,45,6,45C3897,8480,3900,8475,3896,8464z M4460,8470c0-13-11-13-30,0c-12,8-11,10,8,10\n\t\tC4450,8480,4460,8476,4460,8470z M3992,8425c18-24,7-44-29-54c-20-6-38-9-39-8s3,26,9,54c11,52,11,52,31,35\n\t\tC3976,8443,3988,8431,3992,8425z M4696,8284c-6-22-83-84-105-84c-7,0-11,27-11,70v69l40,11c22,6,46,8,52,4s8-3,4,4c-3,5,0,12,6,15\n\t\tC4697,8377,4705,8321,4696,8284z M4712,8148c5-75-14-118-70-161l-37-28l-6,28c-4,15-7,55-8,89c-1,60-1,60,38,82c21,12,44,29,51,37\n\t\tC4702,8221,4708,8212,4712,8148z M4698,7802c-20-21-75-52-93-52c-3,0-5,35-4,79l2,79l43,27c24,15,50,35,56,43c11,12,14,0,16-68\n\t\tC4721,7835,4719,7825,4698,7802z M4730,7720v-40h-60c-44,0-60,4-60,14c0,8,15,16,38,20c21,3,47,15,57,26s20,20,22,20\n\t\tC4728,7760,4730,7742,4730,7720z M4535,7570c20-39,20-40-13-40c-34,0-52,16-52,47C4470,7613,4515,7608,4535,7570z M4788,7570\n\t\tc10-27,9-30-11-35c-12-3-55-5-95-3c-70,3-74,4-93,36l-21,32h105h105L4788,7570z M4870,7576c0-37-17-40-35-6c-15,30-15,30,10,30\n\t\tC4865,7600,4870,7595,4870,7576z M4642,7464c69-6,77-9,92-35c17-28,16-29-10-35c-14-4-67-4-117-1c-95,5-117,16-117,59\n\t\tC4490,7472,4515,7474,4642,7464z M4883,7446c1-5-12-15-29-22c-29-12-34-11-60,12l-29,25l58-3C4854,7456,4881,7451,4883,7446z\n\t\t M4626,7310c15,0,24-9,31-35c11-34,10-35-16-35c-48,0-140,22-152,37c-9,10-9,20-1,37c10,23,11,23,63,10\n\t\tC4581,7316,4614,7310,4626,7310z M4900,7326c0-20-46-51-95-65c-62-17-78-14-97,19l-17,30l57,1c31,0,75,6,97,14\n\t\tC4898,7342,4900,7342,4900,7326z M4883,7183c-13-37-25-44-39-26c-11,16-10,19,14,30c15,7,28,12,29,13\n\t\tC4888,7200,4887,7192,4883,7183z M4524,7168c11-41,8-52-9-38c-16,13-21,60-6,60C4514,7190,4520,7180,4524,7168z M4692,7169\n\t\tc94-1,108-7,108-41c0-16-12-18-104-18c-90,0-104,2-109,18c-2,9-8,26-13,36c-6,16-4,18,9,13C4592,7174,4641,7170,4692,7169z\"/>\n\t<path id=\"HM8\" d=\"M1210,8198c0-183,4-747,10-1253c12-1008,27-3098,32-4371l3-812l-54-5c-65-7-95-27-136-89c-28-43-36-47-135-81\n\t\tc-290-98-544-199-579-230c-23-22-23-23-17-175c3-84,11-174,17-201l10-49l79-6l80-7l9-37c22-83,31-175,31-329c0-176,7-206,49-222\n\t\tc50-19,133-22,926-34c1102-15,1589-15,1819,2c151,11,281,12,640,5c248-5,660-8,916-7c256,2,837,4,1291,5l826,3l149,125\n\t\tc82,69,172,142,201,163c72,52,141,132,148,170c4,18-1,106-9,196c-9,91-16,192-16,225c0,59,1,61,46,103l47,42l-7,178\n\t\tc-8,210-13,253-32,253c-8,0-14,4-14,9s-15,15-32,22c-39,17-43,17-1318,1c-688-8-1153-8-1710,0c-998,14-993,14-1502,6l-437-7l-28,38\n\t\tc-16,21-91,117-169,212c-77,96-160,203-185,239l-44,65l-2,330c0,182-6,564-11,850c-22,1092-28,1606-22,2085c3,272,1,531-4,575\n\t\tc-14,131-6,1162,9,1199c8,18,42,54,77,81c110,87,651,555,803,695c33,30,83,74,110,98c119,103,235,226,235,249v23H2260H1210V8198z\n\t\t M2210,8475c-25-30-131-118-136-112c-3,3-2,32,2,66l7,61h70C2214,8490,2221,8488,2210,8475z M0,0\"/>\n</g>\n</svg>\n"
 
 /***/ })
 /******/ ]);

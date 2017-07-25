@@ -12,12 +12,6 @@
     "dataaos": "flip-right"
   },
   {
-    "id": "apple",
-    "src": "images/devicons/apple-original.svg",
-    "text": "OSX",
-    "dataaos": "flip-up"
-  },
-  {
     "id": "atom",
     "src": "images/devicons/atom-original.svg",
     "text": "Atom",
@@ -148,6 +142,12 @@
     "src": "images/devicons/npm-original-wordmark.svg",
     "text": "NPM",
     "dataaos": "flip-left"
+  },
+  {
+    "id": "osx",
+    "src": "images/devicons/apple-original.svg",
+    "text": "OSX",
+    "dataaos": "flip-up"
   },
   {
     "id": "photoshop",

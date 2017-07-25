@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import skilldata from "./skilldata";
@@ -10,12 +10,25 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 
-ReactDOM.render(
-  <main>
-  <Splash />
-  <About />
-  <Skills skilldata={skilldata} />
-  <Portfolio />
-  <Contact />
-  </main>,
-  document.getElementById('app'));
+class Main extends Component{
+  constructor(props){
+    super(props)
+  }
+
+
+  render(){
+
+    return(
+      <main>
+      <Splash />
+      <About />
+      <Skills skilldata={skilldata} />
+      <Portfolio />
+      <Contact />
+      </main>
+    )
+  }
+}
+
+
+ReactDOM.render(<Main />, document.getElementById('app'));
