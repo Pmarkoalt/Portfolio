@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: rgba(255, 255, 255,.5);
+  background-color: rgba(255, 255, 255,.8);
   padding-bottom: 30px;
 
     &__div {
       margin-top: 2vh;
+      width: 20vw;
 
 
         &__svg{
-          width: 200px;
+          width: 18vw;
           height: 20vh;
         }
 
@@ -23,10 +24,22 @@
 }
 
 #icons{
+
+}
+#iconWrapper{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #lang-header{
@@ -43,18 +56,8 @@
 */
 
 @media (max-width: 1200px) {
-  .languages{
-
-      &__div {
-
-          &__svg{
-            width: 180px;
-          }
-
-      }
 
 
-    }
 }
 
 @media (max-width: 960px) {
@@ -69,6 +72,13 @@
 }
 
 @media (max-width: 480px) {
+  .languages__div__svg{
+    width: 40px;
+    height: 70px;
+  }
 
+  .languages__div__text{
+    display: none;
+  }
 
 }

@@ -9,9 +9,9 @@ $(document).ready(function () {
   if (window.matchMedia("(min-width: 900px)").matches) {
     portHeight = $(document).height() - $("#portfolio").height() - $("#contactMe").height() - 50;
   } else if (window.matchMedia("(min-width: 550px)").matches) {
-    portHeight = 3500;
+    portHeight = 2800;
   } else {
-    portHeight = 4500;
+    portHeight = 1500;
   }
       if ($(window).scrollTop() > splashHeight - $("#sticky-nav").height()) {
           $('#sticky-nav').addClass('sticky-navigation-fixed');
@@ -64,11 +64,11 @@ $(document).ready(function () {
                goToByScroll($(this).attr("id"));
          });
 
-       $("#contactMeLink").on('click', function(e) {
+       $("#contactLink").on('click', function(e) {
               // Prevent a page reload when a link is pressed
               e.preventDefault();
          // Call the scroll function
-         goToByScroll($(this).attr("id"));
+         $("html, body").animate({ scrollTop: $(document).height()-$(window).height() }, 'slow');
 
 
         });

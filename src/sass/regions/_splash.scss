@@ -71,6 +71,10 @@
     top:0;
 }
 
+.hamburger{
+  display: none;
+}
+
 
 /*
 ===================================
@@ -91,7 +95,13 @@
 }
 
 @media (max-width: 760px) {
+  .splash__menu__item{
+    display: none;
+  }
 
+  .hamburger{
+    display: block
+  }
 }
 
 @media (max-width: 480px) {

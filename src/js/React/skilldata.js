@@ -1,5 +1,5 @@
  const skilldata = [
-  {
+  [{
     "id": "amazon",
     "src": "images/devicons/amazonwebservices-original.svg",
     "text": "AWS",
@@ -28,8 +28,8 @@
     "src": "images/devicons/d3js-plain.svg",
     "text": "D3",
     "dataaos": "flip-left"
-  },
-  {
+  }],
+  [{
     "id": "devicon",
     "src": "images/devicons/devicon-plain.svg",
     "text": "Devicon",
@@ -58,8 +58,8 @@
     "src": "images/devicons/greensock.svg",
     "text": "GreenSock",
     "dataaos": "flip-up"
-  },
-  {
+  }],
+  [{
     "id": "grunt",
     "src": "images/devicons/grunt-plain.svg",
     "text": "Grunt",
@@ -88,8 +88,8 @@
     "src": "images/devicons/html5-plain.svg",
     "text": "HTML",
     "dataaos": "flip-right"
-  },
-  {
+  }],
+  [{
     "id": "illustrator",
     "src": "images/devicons/illustrator-plain.svg",
     "text": "Illustrator",
@@ -118,8 +118,8 @@
     "src": "images/devicons/mongodb-plain.svg",
     "text": "MongoDB",
     "dataaos": "flip-left"
-  },
-  {
+  }],
+  [{
     "id": "mysql",
     "src": "images/devicons/mysql-plain.svg",
     "text": "MySQL",
@@ -148,8 +148,8 @@
     "src": "images/devicons/apple-original.svg",
     "text": "OSX",
     "dataaos": "flip-up"
-  },
-  {
+  }],
+  [{
     "id": "photoshop",
     "src": "images/devicons/photoshop-plain.svg",
     "text": "photoshop",
@@ -178,8 +178,8 @@
     "src": "images/devicons/threejs-logo.svg",
     "text": "Three.js",
     "dataaos": "flip-right"
-  },
-  {
+  }],
+  [{
     "id": "tween",
     "src": "images/devicons/tween.png",
     "text": "Tween",
@@ -208,13 +208,13 @@
     "src": "images/devicons/windows8-original.svg",
     "text": "Windows",
     "dataaos": "flip-left"
-  },
-  {
+  }],
+  [{
     "id": "wordpress",
     "src": "images/devicons/wordpress-plain.svg",
     "text": "Wordpress",
     "dataaos": "flip-down"
-  },
+  }],
 ]
 
 export default skilldata

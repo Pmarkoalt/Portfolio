@@ -11,6 +11,11 @@ const Splash = () => {
           <p>Full Stack Developer</p>
       </div>
       <div id="sticky-nav" className="sticky-navigation">
+        <button className="hamburger hamburger--squeeze" type="button">
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>
+        </button>
         <ul className="splash__menu">
           <li className="splash__menu__item" ><a id="aboutLink" href="#"> About </a> </li>
           <li className="splash__menu__item"><a id="languagesLink" href="#"> Skills </a></li>

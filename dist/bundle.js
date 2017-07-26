@@ -86,7 +86,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nhtml * {\n  font-family: \"europa\";\n  font-style: bold;\n  font-weight: 400; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 700; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 400; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 400; }\n\na {\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  position: fixed;\n  height: 200px;\n  width: 100%;\n  background: #7dc6ff;\n  bottom: 0;\n  z-index: -40;\n  visibility: hidden; }\n  .contact__information {\n    margin: 10px;\n    position: absolute;\n    bottom: 0; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n  .contact__photo img {\n    width: 200px;\n    height: 200px;\n    border-radius: 125px;\n    position: fixed;\n    right: 0;\n    bottom: 0; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n.show-contact {\n  visibility: visible; }\n\n.hide-contact {\n  visibility: hidden; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.5);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh; }\n    .languages__div__svg {\n      width: 200px;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#icons {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  text-align: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .languages__div__svg {\n    width: 180px; } }\n\n.portfolio {\n  text-align: center;\n  margin-bottom: 200px; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .port__item {\n    position: relative;\n    overflow: hidden;\n    display: flex;\n    justify-content: center;\n    width: 300px;\n    height: 200px;\n    margin: 30px;\n    box-shadow: -1px 2px 3px black; }\n    .port__item__text {\n      position: fixed;\n      color: white;\n      text-align: center;\n      z-index: 1; }\n  .port__modal {\n    display: flex;\n    flex-direction: column; }\n    .port__modal__header {\n      text-align: left;\n      font-size: 50px; }\n    .port__modal__text {\n      margin-bottom: 20px; }\n    .port__modal__svg {\n      width: 40px; }\n    .port__modal__x {\n      position: absolute;\n      top: 5px;\n      right: 5px;\n      width: 30px; }\n\n#hsvid {\n  -webkit-transform: scaleX(1.2);\n  -moz-transform: scaleX(1.2); }\n\n#hsLogo {\n  max-width: 315px;\n  width: 100%; }\n\n.publicText {\n  color: red;\n  font-family: 'Cinzel', serif; }\n\n#publicText2 {\n  top: 80px; }\n\n.bssvg {\n  width: 180px;\n  margin-top: 10px; }\n\n#bandspace {\n  background-color: #0a9efc; }\n\n.innerCircle {\n  stroke: #F3D55B;\n  stroke-width: 2px;\n  stroke-opacity: 100;\n  fill: white;\n  fill-opacity: 0;\n  transform-origin: 50% 50%;\n  animation-duration: .5s;\n  animation-name: pulse;\n  animation-iteration-count: infinite; }\n\n@keyframes pulse {\n  from {\n    stroke-width: 3px;\n    stroke-opacity: 1;\n    transform: scale(0.3); }\n  to {\n    stroke-width: 0;\n    stroke-opacity: 1;\n    transform: scale(2); } }\n\n#yobrew {\n  height: 200px;\n  width: 400px; }\n\n#wtwText {\n  display: block;\n  margin: 11px 0 17px 0;\n  font-size: 50px;\n  line-height: 80px;\n  color: gold;\n  text-shadow: 0 1px 0 #9e812f, 0 2px 0 #c79a34, 0 3px 0 #c7a730, 0 4px 0 #b99c4b, 0 5px 0 #9c8f30, 0 6px 1px rgba(241, 231, 203, 0.13), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15), -2px 10px 20px black; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  position: relative;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: space-around;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw;\n      line-height: 60px; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 2s; }\n\n#sticky-nav {\n  height: 60px;\n  display: flex;\n  width: 100%;\n  text-align: center;\n  justify-content: center;\n  align-items: center;\n  z-index: 50;\n  background-color: rgba(255, 255, 255, 0.7); }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\nmain {\n  display: flex;\n  flex-direction: column;\n  z-index: 100;\n  overflow: hidden;\n  font-style: normal;\n  font-weight: 400; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.table {\n  background-color: #04bf94;\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\nhtml * {\n  font-family: \"europa\";\n  font-style: bold;\n  font-weight: 400; }\n\nh1 {\n  font-size: calc(4vw + 4vh + 2vmin);\n  font-weight: 700; }\n\nh2 {\n  text-align: center;\n  font-size: calc(3vw + 3vh + 1.5vmin);\n  font-weight: 400; }\n\nh3,\np {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 400; }\n\na {\n  font-weight: 300; }\n\n.about p {\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  font-weight: 300;\n  font-size: calc(1.7vw + 1.7vh + 1vmin);\n  line-height: 1.6; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n@keyframes message {\n  0% {\n    opacity: 0; }\n  25% {\n    opacity: 1; }\n  75% {\n    opacity: 1; }\n  100% {\n    opacity: 0; } }\n\n.about {\n  text-align: center; }\n  .about__header {\n    margin-top: 20px; }\n  .about__text {\n    text-align: left;\n    margin: 2vw;\n    padding-bottom: 30px; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.contact {\n  position: fixed;\n  height: 200px;\n  width: 100%;\n  background: #7dc6ff;\n  bottom: 0;\n  z-index: -40;\n  visibility: hidden; }\n  .contact__information {\n    margin: 10px;\n    position: absolute;\n    bottom: 0; }\n    .contact__information__svg img {\n      width: 30px;\n      height: 30px;\n      color: black; }\n  .contact__photo img {\n    width: 200px;\n    height: 200px;\n    border-radius: 125px;\n    position: fixed;\n    right: 0;\n    bottom: 0; }\n\n#contact-header {\n  font-size: calc(2vw + 2vh + 1vmin); }\n\n.show-contact {\n  visibility: visible; }\n\n.hide-contact {\n  visibility: hidden; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 480px) {\n  .contact__photo img {\n    display: none; } }\n\n.languages {\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.8);\n  padding-bottom: 30px; }\n  .languages__div {\n    margin-top: 2vh;\n    width: 20vw; }\n    .languages__div__svg {\n      width: 18vw;\n      height: 20vh; }\n  .languages__div p {\n    margin-top: 1vh;\n    font-size: calc(1.5vw + 1.5vh + .75vmin); }\n\n#iconWrapper {\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n  justify-content: center;\n  text-align: center;\n  margin-left: 5vw;\n  margin-right: 5vw; }\n\n.icons {\n  display: flex;\n  flex-direction: row;\n  justify-content: center; }\n\n#lang-header {\n  margin-top: 5vh; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 480px) {\n  .languages__div__svg {\n    width: 40px;\n    height: 70px; }\n  .languages__div__text {\n    display: none; } }\n\n.portfolio {\n  text-align: center;\n  margin-bottom: 200px; }\n\n.portfolio h1 {\n  margin-top: 30px; }\n\n.port {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .port__item {\n    position: relative;\n    overflow: hidden;\n    display: flex;\n    justify-content: center;\n    width: 300px;\n    height: 200px;\n    margin: 30px;\n    box-shadow: -1px 2px 3px black; }\n    .port__item__text {\n      position: fixed;\n      color: white;\n      text-align: center;\n      z-index: 1; }\n  .port__modal {\n    display: flex;\n    flex-direction: column; }\n    .port__modal__header {\n      text-align: left;\n      font-size: 50px;\n      margin-bottom: 20px; }\n    .port__modal__text {\n      margin-bottom: 20px; }\n    .port__modal__svg {\n      width: 40px; }\n    .port__modal__x {\n      position: absolute;\n      top: 5px;\n      right: 5px;\n      width: 30px; }\n\n#hsvid {\n  -webkit-transform: scaleX(1.2);\n  -moz-transform: scaleX(1.2); }\n\n#hsLogo {\n  max-width: 250px;\n  width: 100%; }\n\n.publicText {\n  color: red;\n  font-family: 'Cinzel', serif; }\n\n#publicText2 {\n  top: 80px; }\n\n.bssvg {\n  width: 180px;\n  margin-top: 10px; }\n\n#bandspace {\n  background-color: #0a9efc; }\n\n.innerCircle {\n  stroke: #F3D55B;\n  stroke-width: 2px;\n  stroke-opacity: 100;\n  fill: white;\n  fill-opacity: 0;\n  transform-origin: 50% 50%;\n  animation-duration: .5s;\n  animation-name: pulse;\n  animation-iteration-count: infinite; }\n\n@keyframes pulse {\n  from {\n    stroke-width: 3px;\n    stroke-opacity: 1;\n    transform: scale(0.3); }\n  to {\n    stroke-width: 0;\n    stroke-opacity: 1;\n    transform: scale(2); } }\n\n#yobrew {\n  height: 200px;\n  width: 400px; }\n\n#wtwText {\n  display: block;\n  margin: 11px 0 17px 0;\n  font-size: 50px;\n  line-height: 80px;\n  color: gold;\n  text-shadow: 0 1px 0 #9e812f, 0 2px 0 #c79a34, 0 3px 0 #c7a730, 0 4px 0 #b99c4b, 0 5px 0 #9c8f30, 0 6px 1px rgba(241, 231, 203, 0.13), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15), -2px 10px 20px black; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.splash {\n  height: 100vh;\n  display: flex;\n  position: relative;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n  .splash__title {\n    text-align: center;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n  .splash__menu {\n    display: flex;\n    width: 100%;\n    text-align: center;\n    justify-content: space-around;\n    -webkit-animation: fade-in 5s;\n    animation: fade-in 5s; }\n    .splash__menu__item {\n      font-size: calc(1vw + 1vh + .5vmin);\n      margin-left: 5vw;\n      margin-right: 5vw;\n      line-height: 60px; }\n    .splash__menu__item:hover {\n      color: blue; }\n  .splash__message {\n    margin-top: 10vh;\n    opacity: 0;\n    -webkit-animation: message 5s;\n    animation: message 5s;\n    animation-delay: 2s; }\n\n#sticky-nav {\n  height: 60px;\n  display: flex;\n  width: 100%;\n  text-align: center;\n  justify-content: center;\n  align-items: center;\n  z-index: 50;\n  background-color: rgba(255, 255, 255, 0.7); }\n\n#doughnuts {\n  position: fixed;\n  min-height: 100%;\n  z-index: -50; }\n\n.sticky-navigation {\n  position: absolute;\n  bottom: 0; }\n\n.sticky-navigation-fixed {\n  position: fixed;\n  top: 0; }\n\n.hamburger {\n  display: none; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .splash__menu__item {\n    display: none; }\n  .hamburger {\n    display: block; } }\n\nmain {\n  display: flex;\n  flex-direction: column;\n  z-index: 100;\n  overflow: hidden;\n  font-style: normal;\n  font-weight: 400; }\n\nhtml, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0; }\n\na {\n  color: blue;\n  text-decoration: none;\n  /* no underline */ }\n\n.table {\n  background-color: #45e8c3;\n  box-shadow: 0px -.5px 3px black, 0px 2px 3px black; }\n", ""]);
 	
 	// exports
 
@@ -62608,9 +62608,9 @@
 	    if (window.matchMedia("(min-width: 900px)").matches) {
 	      portHeight = $(document).height() - $("#portfolio").height() - $("#contactMe").height() - 50;
 	    } else if (window.matchMedia("(min-width: 550px)").matches) {
-	      portHeight = 3500;
+	      portHeight = 2800;
 	    } else {
-	      portHeight = 4500;
+	      portHeight = 1500;
 	    }
 	    if ($(window).scrollTop() > splashHeight - $("#sticky-nav").height()) {
 	      $('#sticky-nav').addClass('sticky-navigation-fixed');
@@ -62660,11 +62660,11 @@
 	    goToByScroll($(this).attr("id"));
 	  });
 	
-	  $("#contactMeLink").on('click', function (e) {
+	  $("#contactLink").on('click', function (e) {
 	    // Prevent a page reload when a link is pressed
 	    e.preventDefault();
 	    // Call the scroll function
-	    goToByScroll($(this).attr("id"));
+	    $("html, body").animate({ scrollTop: $(document).height() - $(window).height() }, 'slow');
 	  });
 	});
 
@@ -94957,7 +94957,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var skilldata = [{
+	var skilldata = [[{
 	  "id": "amazon",
 	  "src": "images/devicons/amazonwebservices-original.svg",
 	  "text": "AWS",
@@ -94982,7 +94982,7 @@
 	  "src": "images/devicons/d3js-plain.svg",
 	  "text": "D3",
 	  "dataaos": "flip-left"
-	}, {
+	}], [{
 	  "id": "devicon",
 	  "src": "images/devicons/devicon-plain.svg",
 	  "text": "Devicon",
@@ -95007,7 +95007,7 @@
 	  "src": "images/devicons/greensock.svg",
 	  "text": "GreenSock",
 	  "dataaos": "flip-up"
-	}, {
+	}], [{
 	  "id": "grunt",
 	  "src": "images/devicons/grunt-plain.svg",
 	  "text": "Grunt",
@@ -95032,7 +95032,7 @@
 	  "src": "images/devicons/html5-plain.svg",
 	  "text": "HTML",
 	  "dataaos": "flip-right"
-	}, {
+	}], [{
 	  "id": "illustrator",
 	  "src": "images/devicons/illustrator-plain.svg",
 	  "text": "Illustrator",
@@ -95057,7 +95057,7 @@
 	  "src": "images/devicons/mongodb-plain.svg",
 	  "text": "MongoDB",
 	  "dataaos": "flip-left"
-	}, {
+	}], [{
 	  "id": "mysql",
 	  "src": "images/devicons/mysql-plain.svg",
 	  "text": "MySQL",
@@ -95082,7 +95082,7 @@
 	  "src": "images/devicons/apple-original.svg",
 	  "text": "OSX",
 	  "dataaos": "flip-up"
-	}, {
+	}], [{
 	  "id": "photoshop",
 	  "src": "images/devicons/photoshop-plain.svg",
 	  "text": "photoshop",
@@ -95107,7 +95107,7 @@
 	  "src": "images/devicons/threejs-logo.svg",
 	  "text": "Three.js",
 	  "dataaos": "flip-right"
-	}, {
+	}], [{
 	  "id": "tween",
 	  "src": "images/devicons/tween.png",
 	  "text": "Tween",
@@ -95132,12 +95132,12 @@
 	  "src": "images/devicons/windows8-original.svg",
 	  "text": "Windows",
 	  "dataaos": "flip-left"
-	}, {
+	}], [{
 	  "id": "wordpress",
 	  "src": "images/devicons/wordpress-plain.svg",
 	  "text": "Wordpress",
 	  "dataaos": "flip-down"
-	}];
+	}]];
 	
 	exports.default = skilldata;
 
@@ -95178,6 +95178,15 @@
 	    _react2.default.createElement(
 	      "div",
 	      { id: "sticky-nav", className: "sticky-navigation" },
+	      _react2.default.createElement(
+	        "button",
+	        { className: "hamburger hamburger--squeeze", type: "button" },
+	        _react2.default.createElement(
+	          "span",
+	          { className: "hamburger-box" },
+	          _react2.default.createElement("span", { className: "hamburger-inner" })
+	        )
+	      ),
 	      _react2.default.createElement(
 	        "ul",
 	        { className: "splash__menu" },
@@ -95320,20 +95329,154 @@
 	        _react2.default.createElement(
 	          "div",
 	          { id: "icons" },
-	          this.props.skilldata.map(function (item, index) {
-	            return _react2.default.createElement(
+	          _react2.default.createElement(
+	            "div",
+	            { id: "iconWrapper" },
+	            _react2.default.createElement(
 	              "div",
-	              { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
-	              _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                " ",
-	                item.text,
-	                " "
-	              )
-	            );
-	          })
+	              { className: "icons__one icons" },
+	              this.props.skilldata[0].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__two icons" },
+	              this.props.skilldata[1].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__three icons" },
+	              this.props.skilldata[2].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__four icons" },
+	              this.props.skilldata[3].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__five icons" },
+	              this.props.skilldata[4].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__six icons" },
+	              this.props.skilldata[5].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__seven icons" },
+	              this.props.skilldata[6].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "icons__eight icons" },
+	              this.props.skilldata[7].map(function (item, index) {
+	                return _react2.default.createElement(
+	                  "div",
+	                  { key: index, className: "languages__div", id: item.id, "data-aos": item.dataaos, "data-aos-easing": "ease-out-cubic", "data-aos-duration": "500" },
+	                  _react2.default.createElement("img", { className: "languages__div__svg", src: item.src }),
+	                  _react2.default.createElement(
+	                    "p",
+	                    { className: "languages__div__text" },
+	                    " ",
+	                    item.text,
+	                    " "
+	                  )
+	                );
+	              })
+	            )
+	          )
 	        )
 	      );
 	    }
