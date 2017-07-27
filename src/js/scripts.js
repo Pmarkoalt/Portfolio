@@ -11,7 +11,7 @@ $(document).ready(function () {
   } else if (window.matchMedia("(min-width: 550px)").matches) {
     portHeight = 2800;
   } else {
-    portHeight = 1500;
+    portHeight = 1800;
   }
       if ($(window).scrollTop() > splashHeight - $("#sticky-nav").height()) {
           $('#sticky-nav').addClass('sticky-navigation-fixed');
@@ -64,8 +64,9 @@ $(document).ready(function () {
                goToByScroll($(this).attr("id"));
          });
 
-       $("#contactLink").on('click', function(e) {
+       $(".contactLink").on('click', function(e) {
               // Prevent a page reload when a link is pressed
+              console.log("test");
               e.preventDefault();
          // Call the scroll function
          $("html, body").animate({ scrollTop: $(document).height()-$(window).height() }, 'slow');

@@ -6,6 +6,13 @@
   align-items: center;
   flex-direction: column;
 
+    &__mobile{
+      position: absolute;
+      display: none;
+      font-weight: 500;
+      font-size: 25px;
+    }
+
     &__title {
       text-align: center;
       -webkit-animation: fade-in 5s;
@@ -19,6 +26,7 @@
       justify-content: space-around;
       -webkit-animation: fade-in 5s;
       animation: fade-in 5s;
+
 
       &__item {
         font-size: calc(1vw + 1vh + .5vmin);
@@ -71,9 +79,6 @@
     top:0;
 }
 
-.hamburger{
-  display: none;
-}
 
 
 /*
@@ -95,13 +100,25 @@
 }
 
 @media (max-width: 760px) {
-  .splash__menu__item{
-    display: none;
+  .splash{
+
+      &__menu__item{
+      display: none;
+      }
+
+    &__button{
+      display: block
+    }
+
+    &__burgermenu{
+      display: flex;
+    }
+
+    &__mobile{
+      display: block;
+    }
   }
 
-  .hamburger{
-    display: block
-  }
 }
 
 @media (max-width: 480px) {

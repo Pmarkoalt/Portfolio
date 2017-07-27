@@ -63,6 +63,19 @@
 
 }
 
+.modalLinks{
+
+  &__www{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__text{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
 
 
 //Headshoppe specific

@@ -105,8 +105,14 @@ class Portfolio extends Component{
                 <img id="hsLogo" className="port__modal__text" src="./images/headshoppe.png" />
                 <p className="port__modal__text"> Headshoppe is a website designed for the record label 1432R and their art collective Extended Family. The website acts a base for the label's online store, blog, and podcast. </p>
                 <div className="modalLinks">
-                  <a href="https://www.headshoppe.net/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
-                  <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                  <div className="modalLinks__www">
+                    <a href="https://www.headshoppe.net/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
+                    <p className="modalLinks__text"> Deployed Website </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                    <p className="modalLinks__text"> Github Repository (unavailable due to contract) </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.hsActiveModal}/>
               </Modal>
@@ -128,8 +134,14 @@ class Portfolio extends Component{
                 <h1 style={{fontSize: 30, fontFamily: 'Cinzel', letterSpacing: -.3, fontWeight: 100, marginBottom: 20}}> PUBLIC.GROUP </h1>
                 <p className="port__modal__text"> Public Group is a design firm I work for assisting in web development and sound design. This firm's website is a recent assignment of mine</p>
                 <div className="modalLinks">
-                  <a href="http://publicstudio.ml/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
-                  <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                  <div className="modalLinks__www">
+                    <a href="http://publicstudio.ml/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
+                    <p className="modalLinks__text"> Deployed Website </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <a href="https://github.com/moustafahassan/Public_site" target="_blank"><img className="port__modal__svg" src="images/devicons/github-original.svg" /> </a>
+                    <p className="modalLinks__text"> Github Repository </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.pbActiveModal}/>
               </Modal>
@@ -148,9 +160,14 @@ class Portfolio extends Component{
                 <p className="port__modal__header"> BandSpace </p>
                 <p className="port__modal__text"> BandSpace is a conceptual peer to peer reviewing website developed with React, Redux, and MongoDB. The concept of the platform is to give working musicians a space to vent grievances with owners of venues and vice versa. The goal of the app is to create transparency in a field that lacks it and establish a frame work for peer to peer "review" websites for implementation of a groups feature. </p>
                 <div className="modalLinks">
-                  <a href="https://band-space.herokuapp.com/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
-                  <a href="https://github.com/rdhenderson/project-3" target="_blank"> <img className="port__modal__svg" src="images/devicons/github-original.svg" /> </a>
-
+                  <div className="modalLinks__www">
+                    <a href="https://band-space.herokuapp.com/" target="_blank"><img className="port__modal__svg" src="images/devicons/www.svg" /> </a>
+                    <p className="modalLinks__text"> Deployed Website </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <a href="https://github.com/rdhenderson/project-3" target="_blank"> <img className="port__modal__svg" src="images/devicons/github-original.svg" /> </a>
+                    <p className="modalLinks__text"> Github Repository </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.bsActiveModal}/>
               </Modal>
@@ -168,8 +185,14 @@ class Portfolio extends Component{
                 <h2 id="wtwText" style={{textAlign: "left"}}> What To Watch </h2>
                 <p className="port__modal__text"> What to Watch is a movie finder app powered by the Indico text and image analysis API and the Moviedb API. Using a picture of your face taken from your webcam and a few writing prompts What to Watch analyzes your mood and preferences to find a movie to suit your needs. The project is currently being refactored to incorporate the Netflix API and Angular for speed and more precise results. </p>
                 <div className="modalLinks">
-                  <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
-                  <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
+                    <p className="modalLinks__text"> Deployed Website (currently unavailable) </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                    <p className="modalLinks__text"> Github Repository (currently unavailable) </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.wtwActiveModal}/>
               </Modal>
@@ -188,8 +211,14 @@ class Portfolio extends Component{
                 <p className="port__modal__header"> Yo Brew </p>
                 <p className="port__modal__text"> Yo Brew! was a challenge to develop a minimalistic app with a large dataset. Utilizing HandlbarsJS, Sequelize, and Express this app looks up breweries in your area and allows you to save favorite beers and breweries. Currently being refactored. </p>
                 <div className="modalLinks">
-                  <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
-                  <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
+                    <p className="modalLinks__text"> Deployed Website (currently unavailable) </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                    <p className="modalLinks__text"> Github Repository (currently unavailable) </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.ybActiveModal}/>
               </Modal>
@@ -208,8 +237,14 @@ class Portfolio extends Component{
                 <p className="port__modal__header"> Hangman </p>
                 <p className="port__modal__text"> A simple Hangman app used primarily to experiment with the GreenSock animation platform. Currently being refactored for React. </p>
                 <div className="modalLinks">
-                  <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
-                  <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/www-unavailable.svg" />
+                    <p className="modalLinks__text"> Deployed Website (currently unavailable) </p>
+                  </div>
+                  <div className="modalLinks__www">
+                    <img className="port__modal__svg" src="images/devicons/github-unavailable.svg" />
+                    <p className="modalLinks__text"> Github Repository (currently unavailable) </p>
+                  </div>
                 </div>
                   <img className="port__modal__x" src="images/devicons/x.svg" onClick={this.hmActiveModal}/>
               </Modal>
