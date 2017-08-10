@@ -90,7 +90,9 @@ class Portfolio extends Component{
 				<h1> PORTFOLIO </h1>
 				<div className="port">
 						<div onClick={this.hsActiveModal} className="port__item" id="headshoppe" data-aos="fade-up">
-							<p className="port__item__text"> Headshoppe </p>
+              <div className="port__item__textContainer">
+							         <p className="port__item__textContainer__text"> Headshoppe </p>
+              </div>
                 <video id="hsvid" playsInline autoPlay muted loop>
                   <source src="./images/headshoppe.mp4" type="video/mp4"/>
                 </video>
@@ -118,10 +120,12 @@ class Portfolio extends Component{
               </Modal>
 
             <div onClick={this.pbActiveModal} className="port__item" id="public" data-aos="fade-up">
-              <p className="port__item__text publicText"> PUBLIC </p>
-              <p className="port__item__text publicText" id="publicText2"> パブリック </p>
+              <div className="port__item__textContainer">
+                  <p className="port__item__textContainer__text publicText"> PUBLIC </p>
+                  <p className="port__item__textContainer__text publicText" id="publicText2"> パブリック </p>
+              </div>
               <video id="pbvid" playsInline autoPlay muted loop>
-                <source src="./images/public.webm" type="video/webm"/>
+                <source src="./images/public.mp4" type="video/mp4"/>
               </video>
             </div>
             <Modal
@@ -147,8 +151,11 @@ class Portfolio extends Component{
               </Modal>
 
 						<div onClick={this.bsActiveModal} className="port__item" id="bandspace" data-aos="fade-up">
+              <div className="port__item__textContainer">
+                <p className="port__item__textContainer__text" id="bandspaceText"> Bandspace </p>
+              </div>
               <SVGInline className="bssvg" svg={amp} />
-							<p className="port__item__text"> Bandspace </p>
+
 						</div>
             <Modal
               isOpen={this.state.bsModal}
@@ -173,7 +180,9 @@ class Portfolio extends Component{
               </Modal>
 
 						<div onClick={this.wtwActiveModal} style={{backgroundColor: "grey"}} className="port__item" id="whatToWatch" data-aos="fade-up">
-							<p className="port__item__text" id="wtwText"> What to Watch </p>
+              <div className="port__item__textContainer">
+							   <p className="port__item__textContainer__text" id="wtwText"> What to Watch </p>
+              </div>
 						</div>
             <Modal
               isOpen={this.state.wtwModal}
@@ -198,7 +207,9 @@ class Portfolio extends Component{
               </Modal>
 
 						<div onClick={this.ybActiveModal} className="port__item" id="yoBrew" data-aos="fade-up">
-							<p className="port__item__text"> Yo Brew! </p>
+              <div className="port__item__textContainer">
+							         <p className="port__item__textContainer__text"> Yo Brew! </p>
+              </div>
               <img id="yobrew" src="images/yobrew.jpg" />
 						</div>
             <Modal
@@ -224,7 +235,9 @@ class Portfolio extends Component{
               </Modal>
 
             <div onClick={this.hmActiveModal} style={{backgroundColor: "black"}} className="port__item" id="hangman" data-aos="fade-up">
-              <p className="port__item__text"> Hangman </p>
+              <div className="port__item__textContainer">
+                    <p className="port__item__textContainer__text"> Hangman </p>
+              </div>
               <SVGInline style={{fill: "blue"}} className="bssvg" svg={hm} />
             </div>
             <Modal

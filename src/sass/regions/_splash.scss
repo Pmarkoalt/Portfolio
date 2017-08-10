@@ -7,10 +7,16 @@
   flex-direction: column;
 
     &__mobile{
-      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__item{
       display: none;
       font-weight: 500;
       font-size: 25px;
+
+      }
     }
 
     &__title {
@@ -24,8 +30,6 @@
       width: 100%;
       text-align: center;
       justify-content: space-around;
-      -webkit-animation: fade-in 5s;
-      animation: fade-in 5s;
 
 
       &__item {
@@ -33,6 +37,7 @@
         margin-left: 5vw;
         margin-right: 5vw;
         line-height: 60px;
+
       }
       &__item:hover {
         color: blue;
@@ -57,7 +62,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    z-index: 50;
+    z-index: 100;
+    -webkit-transform: translate3d(0,0,0);
     background-color: rgba(255,255,255,.7);
 }
 
@@ -102,7 +108,7 @@
 @media (max-width: 760px) {
   .splash{
 
-      &__menu__item{
+      &__menu{
       display: none;
       }
 
@@ -114,7 +120,7 @@
       display: flex;
     }
 
-    &__mobile{
+    &__mobile__item{
       display: block;
     }
   }

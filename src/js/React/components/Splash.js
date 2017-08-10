@@ -20,7 +20,9 @@ class Splash extends Component{
             <p>Full Stack Developer</p>
         </div>
         <div id="sticky-nav" className="sticky-navigation">
-          <li className="splash__mobile"><a className="contactLink" href="#"> Contact Me! </a></li>
+          <ul className="splash__mobile">
+            <li className="splash__mobile__item"><a className="contactLink" href="#"> Contact Me! </a></li>
+          </ul>
           <ul className="splash__menu">
             <li className="splash__menu__item" ><a id="aboutLink" href="#"> About </a> </li>
             <li className="splash__menu__item"><a id="languagesLink" href="#"> Skills </a></li>

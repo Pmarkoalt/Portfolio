@@ -15,7 +15,7 @@
 main {
   display: flex;
   flex-direction: column;
-  z-index: 100;
+  z-index: 1;
   overflow: hidden;
   font-style: normal;
   font-weight: 400;
@@ -38,4 +38,12 @@ a {
 .table{
   background-color: rgb(69, 232, 195);
   box-shadow: 0px -.5px 3px black, 0px 2px 3px black ;
+}
+
+.reviewModal{
+  width: 100%;
+
+  &__input{
+    width: 100%;
+  }
 }
