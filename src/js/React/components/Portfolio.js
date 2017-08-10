@@ -87,7 +87,7 @@ class Portfolio extends Component{
     render(){
     return(
 			<section className="portfolio table" id="portfolio">
-				<h1> PORTFOLIO </h1>
+				<h1 id="portTitle"> Portfolio </h1>
 				<div className="port">
 						<div onClick={this.hsActiveModal} className="port__item" id="headshoppe" data-aos="fade-up">
               <div className="port__item__textContainer">
