@@ -33,7 +33,7 @@
   text-align: center;
   margin-left: 5vw;
   margin-right: 5vw;
-  z-index: 5;
+  // z-index: 5;
 }
 
 .icons{
@@ -74,7 +74,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   .languages__div__svg{
     width: 40px;
     height: 70px;
