@@ -16,7 +16,7 @@ class Splash extends Component{
       <section className="splash" id="splash">
 
         <div className="splash__title">
-            <h1>Peter Markoski</h1>
+            <h1>John Smith</h1>
             <p>Full Stack Developer</p>
         </div>
         <div id="sticky-nav" className="sticky-navigation">
